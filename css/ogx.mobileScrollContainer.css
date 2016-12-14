@@ -1,0 +1,16 @@
+.ogx_mobile_scroll_container{
+    display:block;
+    position:absolute;
+    top:0;
+    width:3px;
+    z-index:9999999;
+}
+.ogx_mobile_scroll_container_button{
+    position:absolute;
+    top:0;
+    display:block;
+    opacity:0;
+    background-color:rgba(0, 0, 0, 0.5);
+    width:3px;
+    z-index:9999999;
+}
