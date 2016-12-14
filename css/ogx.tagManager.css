@@ -1,0 +1,44 @@
+/* CSS Document */
+.ogx_tag_manager{
+	margin-top:5px;
+	padding:2px;
+	background-color:#FFF;
+	border:1px solid #CCC;
+	border-radius:1px;	
+}
+.ogx_tag_manager input[type=text]{
+	border:none;
+	background-color:transparent;	
+	width:auto;
+	height:22px;
+}
+.ogx_tag_manager input[type=text]:focus{
+    outline:0 none;
+}
+.ogx_tag_manager_tags{
+		
+}
+.ogx_tag_manager_tag{
+	display:inline-block; 
+	margin-right:10px;
+	border:solid 1px #999;
+	border-radius:2px;
+	font-size:14px;	
+	background-color:#ddf7e7;
+	color:#333;
+	padding:3px 3px 3px 3px;	
+}
+.ogx_tag_manager_tag img{
+	margin-left:3px;	
+	cursor:pointer;
+	margin-bottom:-5px;
+}
+.ogx_tag_manager_tags_container{
+	background-color:#FFF;
+	border:1px solid #CCC;
+	border-radius:1px;	
+	padding:2px;
+}
+.ogx_tag_manager_tags_container_tag{
+	cursor:pointer;
+}

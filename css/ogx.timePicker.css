@@ -1,0 +1,136 @@
+.ogx_time_picker{
+
+}
+.ogx_time_picker_hours{  
+    z-index:6666;  
+    border:1px solid #CCC;  
+    border-radius:80px;
+    position:relative; 
+}
+.ogx_time_picker_minutes{  
+    z-index:6667;  
+    border:1px solid #CCC; 
+    border-radius:80px;
+    position:relative;  
+}
+.ogx_time_picker_hour{
+    position:absolute;
+    background-color:#EEE;
+    border-radius:1px;
+    color:#054877;
+    border-radius:18px;
+    text-align:center;
+    font-size:18px;
+    width:36px;
+    height:36px;
+    cursor:pointer;
+}
+.ogx_time_picker_hour_selected{
+    background-color:#054877 !important;
+    color:#EEE !important;
+}
+.ogx_time_picker_minute_selected{
+    background-color:#054877 !important;
+    color:#EEE !important;
+}
+.ogx_time_picker_minute{
+    position:absolute;
+    background-color:#EEE;
+    border-radius:1px;
+    color:#054877;
+    border-radius:18px;
+    text-align:center;
+    font-size:18px;
+    width:36px;
+    height:36px;
+    cursor:pointer;
+}
+.ogx_time_picker_time{
+    position:absolute; 
+    font-size:20px;
+    color:#054877;
+}
+.ogx_time_picker_ampm{
+    position:absolute; 
+    color:#054877;   
+    opacity:0;
+}
+.ogx_time_picker_ampm_label{
+    display:block;
+    margin-top:8px;
+    font-size:14px;
+}
+.ogx_time_picker_am{
+    position:relative;
+    top:-10px;
+    width:36px;
+    height:36px;
+    border-radius:20px;
+    border:solid 1px #BBB;
+    text-align:center;
+    background-color:#EEE;
+    cursor:pointer;
+}
+.ogx_time_picker_pm{  
+    position:relative;   
+    top:40px;  
+    width:36px;
+    height:36px;
+    border-radius:20px;
+    border:solid 1px #BBB;
+    text-align:center;
+    background-color:#EEE;
+    cursor:pointer;
+}
+.ogx_time_picker_m_selected{
+    background-color:#054877 !important;
+    color:#EEE !important;
+}
+.ogx_time_picker_end{
+    position:absolute; 
+    color:#054877;   
+    opacity:0;
+}
+.ogx_time_picker_end_ok{
+    position:relative;
+    top:-10px;
+    width:36px;
+    height:36px;
+    border-radius:20px;
+    border:solid 1px #BBB;
+    text-align:center;
+    background-color:#EEE;
+    cursor:pointer;
+}
+.ogx_time_picker_end_back{  
+    position:relative;   
+    top:40px;  
+    width:36px;
+    height:36px;
+    border-radius:20px;
+    border:solid 1px #BBB;
+    text-align:center;
+    background-color:#EEE;
+    cursor:pointer;
+}
+.ogx_time_picker_end_label{
+    display:block;
+    margin-top:8px;
+    font-size:14px;
+}
+.ogx_time_picker_time_digits{
+    display:inline-block;
+    box-sizing:border-box;
+}
+.ogx_time_picker_ampm_c{
+    display:inline-block;
+    box-sizing:border-box;  
+    vertical-align:middle;
+    margin-left:2px;
+}
+.ogx_time_picker_ampm_m{
+    display:block;
+    box-sizing:border-box;
+    font-size:12px;
+    line-height:10px;  
+}

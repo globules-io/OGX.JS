@@ -1,0 +1,44 @@
+.ogx_tree_view_item{
+	font-size:10px;	
+	color:#333;	
+}
+.ogx_tree_view_selected{	
+	border-bottom:solid 4px #074F41;
+	background-color:rgba(7, 77, 65, 0.1);	
+}
+.ogx_tree_view_item img{
+	display:inline-block;
+	vertical-align:text-bottom;
+}
+.ogx_tree_view_item_label{
+	display:inline-block;
+	margin-left:5px;	
+	text-shadow:1px 1px 2px rgba(102, 102, 102, 0.6);
+}
+.ogx_tree_view_folder{
+	
+}
+.ogx_tree_view_container{
+	position:relative;
+	left:40px;	
+	margin-bottom:5px;	
+	width:1px;
+	white-space:nowrap;
+}
+.ogx_tree_view_root_container{
+	position:relative;	
+	left:40px;
+	width:1px;
+	white-space:nowrap;
+}
+.ogx_tree_view_root{	
+	border:1px solid #CCC;
+	border-radius:1px;
+	overflow:auto;
+	min-height:500px;
+}
+.ogx_tree_view_drag{
+	position:absolute;
+	z-index:9999;	
+}
+

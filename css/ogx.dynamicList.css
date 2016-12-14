@@ -1,0 +1,11 @@
+.ogx_dynamic_list_item{
+	padding:6px 0px 2px 30px;
+	border:solid 1px #CCC;	
+	margin-bottom:-1px;	
+	color:#333;	
+	background-color:#FFF;	
+}
+.ogx_dynamic_list_selected_item{
+	color:#333;	
+	background-color:#FFF;
+}
