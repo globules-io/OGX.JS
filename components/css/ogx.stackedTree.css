@@ -1,0 +1,52 @@
+.ogx_stacked_tree{
+	position:relative;
+	overflow:hidden;
+}
+.ogx_stacked_tree ul, li{
+	list-style:none;
+	padding:0;
+	margin:0;	
+}
+.ogx_stacked_tree_container{
+
+}
+.ogx_stacked_tree_level{
+	position:absolute;
+	display:inline-block;
+	box-sizing:border-box;	
+	vertical-align:top;
+	width:100%;
+	top:0;
+	left:0;	
+	transform:translateZ(0);
+    transform-style:preserve-3d;
+    backface-visibility:hidden;
+    perspective:1000;  
+}
+.ogx_stacked_tree_back{
+	display:block;
+	width:100%;
+	border-bottom:1px solid #CCC;
+	background-image:url('/img/back.png');
+	background-position:left;
+	background-repeat:no-repeat;
+	margin-bottom:-1px;
+	padding-left:30px;
+}
+.ogx_stacked_tree_item{
+	display:block;
+	width:100%;
+	border-bottom:1px solid #CCC;
+	background-image:url('/img/more.png');
+	background-position:right;
+	background-repeat:no-repeat;
+	margin-bottom:-1px;
+}
+.ogx_stacked_tree_item_label{
+	display:inline-block;
+	box-sizing:border-box;
+	padding:5px;
+}
+.ogx_stacked_tree_end{
+	background-image:none !important;
+}
