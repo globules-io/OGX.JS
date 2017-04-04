@@ -1,6 +1,11 @@
 # OGX.JS
 ### Javascript FieldWork from [globules.io](http://globules.io)
 #### News
+>2017-04-04
+
+>Version removed from files
+
+
 >2017-02-27
 
 >Moving to a complete non breaking update  system
