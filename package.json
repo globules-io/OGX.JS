@@ -1,4 +1,9 @@
-{"dependencies": {
-  "moment": "moment/moment",
-  "jquery" : "jquery/jquery"
-}}
+{
+  "name": "OGX.JS",
+  "version": "1.0.0",
+  "description": "Javascript framework for webviews",
+  "dependencies": {
+    "moment": "moment/moment",
+    "jquery" : "jquery/jquery"
+  }
+}
