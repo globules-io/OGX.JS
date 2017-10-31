@@ -1,4 +1,4 @@
 "dependencies": {
-  "moment": "moment/moment",
-  "jquery" : "jquery/jquery"
+  "moment": "github:moment/moment",
+  "jquery" : "github:jquery/jquery"
 }
