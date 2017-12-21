@@ -1,14 +1,19 @@
 .ogx_stacked_tree{
-	position:relative;
 	overflow:hidden;
 }
 .ogx_stacked_tree ul, li{
 	list-style:none;
 	padding:0;
 	margin:0;	
+	width:100%;
+	box-sizing:border-box;
 }
 .ogx_stacked_tree_container{
-
+	display:block;
+	box-sizing:border-box;
+	position:relative;
+	width:100%;
+	box-sizing:border-box;
 }
 .ogx_stacked_tree_level{
 	position:absolute;
@@ -26,26 +31,30 @@
 .ogx_stacked_tree_back{
 	display:block;
 	width:100%;
-	border-bottom:1px solid #CCC;
-	background-image:url('/img/back.png');
-	background-position:left;
+	border-bottom:1px solid #E2E2E2;
+	background-image:url('../../../img/left.svg');
+	background-position-x:left;
+	background-position-y:center;
 	background-repeat:no-repeat;
-	margin-bottom:-1px;
-	padding-left:30px;
+	background-color:#FFF;	
 }
 .ogx_stacked_tree_item{
 	display:block;
+	box-sizing:border-box;
 	width:100%;
-	border-bottom:1px solid #CCC;
-	background-image:url('/img/more.png');
-	background-position:right;
+	border-bottom:1px solid #E2E2E2;
+	background-image:url('../../../img/right.svg');
+	background-position-x:right;
+	background-position-y:center;
 	background-repeat:no-repeat;
-	margin-bottom:-1px;
+	background-color:#FFF;	
 }
 .ogx_stacked_tree_item_label{
 	display:inline-block;
 	box-sizing:border-box;
-	padding:5px;
+	font-size:18px;
+	padding:10px;
+	color:#00183b;
 }
 .ogx_stacked_tree_end{
 	background-image:none !important;

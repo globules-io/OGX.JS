@@ -1,0 +1,92 @@
+.ogx_mobile_activity_calendar{
+	display:block;	
+	box-sizing:border-box;
+	position:relative;
+	height:100%;
+	-webkit-text-size-adjust:none;
+}
+.ogx_mobile_activity_calendar_nav{
+	display:block;	
+	box-sizing:border-box;
+	width:100%;
+	text-align:center;
+	font-family:OSbold;
+	background-color:#FFF;
+	color:#00183b;
+	border-bottom:1px solid #DDD;
+	padding:5px;
+}
+.ogx_mobile_activity_calendar_days{
+	display:flex;
+	box-sizing:border-box;
+	position:relative;
+}
+.ogx_mobile_activity_calendar_day{
+	display:inline-block;
+	box-sizing:border-box;
+}
+.ogx_mobile_activity_calendar_grid{
+	display:block;	
+	box-sizing:border-box;
+	position:absolute;
+	width:100%;	
+}
+.ogx_mobile_activity_calendar_hour{
+	display:flex;	
+	box-sizing:border-box;
+	border-bottom:1px solid #DDD;
+	background-color:#FFF;	
+	background-size:contain;
+	background-image:url('../../../img/hour.png');
+	background-repeat:repeat-x;
+}
+.ogx_mobile_activity_calendar_hour_label{
+	display:inline-block;	
+	box-sizing:border-box;
+	font-family:OSbold;
+	background-color:#FFF;
+	color:#00183b;
+	padding:5px;
+	min-width:50px;
+	text-align:center;
+	border-right:1px solid #DDD;
+}
+.ogx_mobile_activity_calendar_hour_label span{
+	font-family:OSlight;
+	font-size:10px;
+}
+.ogx_mobile_activity_calendar_content{
+	display:flex;	
+	box-sizing:border-box;
+	width:100%;
+	padding-left:50px;
+}
+.ogx_mobile_activity_calendar_stripe{
+	display:inline-block;
+	box-sizing:border-box;	
+	position:relative;
+	top:0;
+	width:40px;
+	overflow:hidden;
+}
+.ogx_mobile_activity_calendar_block{
+	display:block;
+	position:absolute;
+	width:100%;
+	overflow:hidden;
+	border-radius:4px;
+	font-family:OSsemi;
+	font-size:10px;
+	line-height:10px;
+	text-transform:uppercase;
+	color:#F5F5F5;
+	box-shadow:inset 0px 0px 0px 1px rgba(255,255,255,1);
+	text-align:center;
+}
+.ogx_mobile_activity_calendar_block span{
+	display:block;
+	padding:5px;
+}
+.ogx_mobile_activity_anim{
+	transition:all 200ms;
+}

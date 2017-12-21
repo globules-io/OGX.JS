@@ -1,9 +1,18 @@
+.ogx_dynamic_list{
+	display:block;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	-webkit-overflow-scrolling:touch;
+}
 .ogx_dynamic_list_item{
+	display:block;
+	box-sizing:border-box;
 	padding:6px 0px 2px 30px;
-	border:solid 1px #CCC;	
-	margin-bottom:-1px;	
-	color:#333;	
-	background-color:#FFF;	
+	color:#00183b;	
+	background-color:#FFF;
+	overflow-x:hidden;
 }
 .ogx_dynamic_list_selected_item{
 	color:#333;	

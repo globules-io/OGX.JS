@@ -1,6 +1,11 @@
 .ogx_switch{
 	display:inline-block;
+	box-sizing:border-box;
 	cursor:pointer;
+}
+.ogx_switch_disabled{
+	opacity:0.4;
+	cursor:default !important;
 }
 .ogx_switch_dot{
 	position:relative;
@@ -27,6 +32,9 @@
 .ogx_switch_label{
 	display:inline-block;
 	vertical-align:text-top;	
+	font-family:OSsemi;
+	font-size:14px;
+	padding-top:3px;
 }
 .ogx_switch_label_on{
 	margin-right:10px;
@@ -34,6 +42,6 @@
 .ogx_switch_label_off{
 	margin-left:10px;	
 }
-.ogx_switch_form{
+.ogx_switch_val{
 	display:none;	
 }

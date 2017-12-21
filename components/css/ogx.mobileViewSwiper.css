@@ -1,0 +1,23 @@
+.ogx_mobile_view_swiper_views{
+	position:relative;
+    display:block;
+    z-index:666;
+    overflow:hidden;
+    transition:0.3s ease-in-out;    
+    background-color:#E4E4E4;
+}
+.ogx_mobile_view_swiper_view{
+	box-sizing:border-box;
+    display:inline-block;
+    vertical-align:top; 
+    overflow-x:scroll;   
+}
+.ogx_mobile_view_swiper_view_container{
+    display:block;
+    box-sizing:border-box;
+    overflow:hidden;
+    padding:0 0 100px 0;   
+}
+.ogx_mobile_view_swiper_anim{
+    transition: all 200ms;
+}

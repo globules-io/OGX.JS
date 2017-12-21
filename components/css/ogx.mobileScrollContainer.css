@@ -1,3 +1,20 @@
+.ogx_mobile_scroll_outer{
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+    padding:0;
+    overflow-y:scroll !important;  
+}
+.ogx_mobile_scroll_inner{
+    display:block;
+    box-sizing:border-box;
+    width:100%;
+    /*email needs it*/
+    position:relative;
+    background-color:#FFF;
+    color:#00183b;
+    /*min-height:100%;*/
+}
 .ogx_mobile_scroll_container{
     display:block;
     position:absolute;
@@ -6,11 +23,23 @@
     z-index:9999999;
 }
 .ogx_mobile_scroll_container_button{
-    position:absolute;
+    position:relative;
     top:0;
-    display:block;
+	/*iOS display none - Android display block*/
+    display:none;
     opacity:0;
     background-color:rgba(0, 0, 0, 0.5);
     width:3px;
     z-index:9999999;
 }
+.ogx_mobile_scroll_container_anim{
+    transition:opacity 500ms;   
+}
+.ogx_mobile_scroll_container_anim_fade_in{
+    opacity:1;
+}
+.ogx_mobile_scroll_container_anim_fade_out{
+    opacity:0;
+}
+
+

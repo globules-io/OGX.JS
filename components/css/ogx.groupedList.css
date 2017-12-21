@@ -1,0 +1,41 @@
+.ogx_grouped_list{
+	display:block;
+	width:100%;
+	border:1px solid #CCC;
+	border-bottom:none;
+}
+.ogx_grouped_list_group{
+	display:block;
+	width:100%;
+	padding:5px;	
+	border-bottom:solid 1px #CCC;	
+	background-color:#DDD;	
+	background-position:right 20px top 5px;
+	background-repeat:no-repeat;
+}
+.ogx_grouped_list_group_opened{	
+	background-image:url('../../../img/down.svg');
+}
+.ogx_grouped_list_group_closed{
+	background-image:url('../../../img/up.svg');	
+}
+.ogx_grouped_list_items{
+	margin:0;
+	padding:0;
+	list-style:none;	
+}
+.ogx_grouped_list_item{
+	display:block;
+	box-sizing:border-box;
+	border-bottom:solid 1px #CCC;
+	border-radius:1px;
+	background-color:#FFF;
+}
+.ogx_grouped_list_selected_item{
+	border-bottom:solid 1px #CCC;	
+	background-color:#E4E4E4;
+}
+.ogx_grouped_list_item_label{
+	margin-right:20px;
+	padding:5px;
+}
