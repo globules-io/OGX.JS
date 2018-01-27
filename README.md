@@ -1,6 +1,6 @@
 # OGX.JS
 ### Javascript FieldWork from [globules.io](http://globules.io)
-![build](https://img.shields.io/codeship/d6c1ddd0-16a3-0132-5f85-2e35c05e22b1.svg)
+![build](https://img.shields.io/travis/USER/REPO.svg)
 
 #### News
 >2017-10-26
