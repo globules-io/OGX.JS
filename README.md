@@ -3,6 +3,13 @@
 ![build](https://img.shields.io/teamcity/codebetter/bt428.svg)
 
 #### News
+>2018-02-04
+>Merging of Browser & Mobile components incoming, will result in class name change such as the long overdue
+>_OGX.MobileScrollContainer_ to _OGX.Scroller_ and so om
+>Some variable and method renaming too for consistency 
+>The documentation will change and the pre release version bumped to 0.5
+>I suggest you wait for this 0.5 version if you just stumble on this framework
+
 >2017-10-26
 >Wiki/tutorial (WIP) [here](https://github.com/globules-io/OGX.JS/wiki)
 
