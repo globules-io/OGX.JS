@@ -3,6 +3,10 @@
 ![build](https://img.shields.io/teamcity/codebetter/bt428.svg)
 
 #### News
+>2018-02-17
+>All calendars now merged into one OGX.Calendar compopent using new OGX.QuadSwiper.
+>Also more merging/renaming in process (all Mobile components are now web & mobile)
+
 >2018-02-04
 >Merging of Browser & Mobile components incoming, will result in class name change such as the long overdue
 >_OGX.MobileScrollContainer_ to _OGX.Scroller_ and so om
