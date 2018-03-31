@@ -10,10 +10,7 @@
     display:block;
     box-sizing:border-box;
     width:100%;
-    /*email needs it*/
     position:relative;
-    background-color:#FFF;
-    color:#000;
     min-height:100%;
 }
 .ogx_mobile_scroll_container{
@@ -34,11 +31,10 @@
     z-index:9999999;
 }
 /*iOS only*/
-
 .ogx_mobile_window .ogx_mobile_scroll_container_button{
 	display:block !important;
 }
-
+/*iOS only end*/
 .ogx_mobile_scroll_container_anim{
     transition:opacity 500ms;   
 }
@@ -48,5 +44,3 @@
 .ogx_mobile_scroll_container_anim_fade_out{
     opacity:0;
 }
-
-
