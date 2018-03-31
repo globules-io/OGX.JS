@@ -27,8 +27,7 @@
 .ogx_grouped_list_item{
 	display:block;
 	box-sizing:border-box;
-	border-bottom:solid 1px #CCC;
-	border-radius:1px;
+	border-bottom:solid 1px #CCC;	
 	background-color:#FFF;
 }
 .ogx_grouped_list_selected_item{

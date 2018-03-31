@@ -45,7 +45,6 @@
 	box-sizing:border-box;
 	width:100%;
 	padding:10px;
-	background-color:#FFF;
 }
 .ogx_nested_list_item_body_anim_in{
 	transition:max-height 200ms;	
