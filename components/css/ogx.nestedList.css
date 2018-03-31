@@ -10,11 +10,9 @@
 	display:block;
 	box-sizing:border-box;
 	width:100%;	
+	padding-right:5px;
 	overflow:hidden;
 	border-bottom:1px solid #DDD;
-}
-.ogx_nested_list_item_hidden{
-	display:none;
 }
 .ogx_nested_list_item_head{
 	display:block;
@@ -22,7 +20,6 @@
 	width:100%;	
 	background-repeat:no-repeat;	
 	background-position:right;
-	background-color:#FFF;
 }
 .ogx_nested_list_item_head_open{
 	background-image:url('../../../img/down.svg');
@@ -36,8 +33,6 @@
 	width:100%;
 	padding:5px 5px 5px 10px;
 	font-family:OSsemi;	
-	font-size:14px;
-	color:#333;
 }
 .ogx_nested_list_item_body{
 	display:block;
@@ -50,8 +45,7 @@
 	box-sizing:border-box;
 	width:100%;
 	padding:10px;
-	background-color:#F8F8F8;
-	border-top:1px solid #DDD;
+	background-color:#FFF;
 }
 .ogx_nested_list_item_body_anim_in{
 	transition:max-height 200ms;	

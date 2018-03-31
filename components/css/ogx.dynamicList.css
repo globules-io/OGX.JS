@@ -9,12 +9,7 @@
 .ogx_dynamic_list_item{
 	display:block;
 	box-sizing:border-box;
-	padding:6px 0px 2px 30px;
-	color:#00183b;	
-	background-color:#FFF;
 	overflow-x:hidden;
 }
 .ogx_dynamic_list_selected_item{
-	color:#333;	
-	background-color:#FFF;
 }

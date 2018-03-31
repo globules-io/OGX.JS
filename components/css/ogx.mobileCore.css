@@ -1,8 +1,19 @@
 body{
-	background-color:#000;
-	overflow:hidden;
-	perspective:800px;
-	height:100vh;
+	margin:0;
+	padding:0;
+	font-family:OSlight;
+	font-size:18px;	
+    height:100vh;
+    perspective:800px;
+    color:#000;
+    overflow:hidden;
+   	touch-action:pan-y;
+    -webkit-user-drag:none;
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;  
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color:transparent;
 }
 .ogx_hw{
 	-webkit-transform: translate3d(0, 0, 0);
@@ -59,13 +70,14 @@ body{
 	display:none;
 }
 .ogx_mobile_window_main_icon{
-    position:relative;
+    position:absolute;
     display:inline-block;	
-    top:2px;  
     width:40px;
 	height:40px; 
+	top:10px;
+	margin:auto;
 }
-.ogx_mobile_window_main_icon_top{
+.ogx_mobile_window_main_icon_top, .ogx_mobile_window_main_icon_bottom{
 	transform:rotate(90deg);
 	background-position-x:0px;
 	background-position-y:center;
@@ -75,10 +87,11 @@ body{
 	margin-right:10px;
 	transform:rotate(180deg);
 	background-position-y:15px;
+	position:relative;	
+	top:0px;
 }
 .ogx_mobile_window_main_icon_right{
-	float:left;
-	margin-left:5px;
+	left:5px;
 }
 .ogx_mobile_window_main_icon_back{	    
     background-image:url('../../../img/left.svg');
@@ -89,19 +102,19 @@ body{
 	background-repeat:no-repeat;
 }
 .ogx_mobile_window_icons{
+	position:absolute;
 	display:inline-block;
 	box-sizing:border-box;
-	float:right;
-	margin-right:15px;
+	right:15px;
 }
 .ogx_mobile_window_icons::after{
 	clear:both;
 }
 .ogx_mobile_window_anim_in{
-    
+   
 }
 .ogx_mobile_window_anim_out{
-
+ 
 }
 .ogx_mobile_window_title{
 	display:inline-block;
@@ -137,26 +150,28 @@ body{
 	opacity:0;
 }
 .ogx_overlay_fade_in{
-	transition:opacity 300ms;
+	transition:opacity 0.5s;
 	opacity:1 !important;
 }
 .ogx_overlay_fade_out{
-	transition:opacity 300ms;
+	transition:opacity 0.3s;
 	opacity:0 !important;
 }
 .ogx_base_view{
 	display:flex;
-	flex-direction:row;
+    flex-direction:column;
+    flex-grow:1;
 	box-sizing:border-box;
 	width:100%;
-	margin:0;
+    height:100%;
 	overflow:hidden;
 }
 .ogx_view{
 	display:flex;
+	flex-grow:1;
+	width:100%;
 	flex-direction:column;
 	box-sizing:border-box;
-	width:100%;
 	margin:0;
 	overflow:hidden;
     background-color:#F5F5F5;

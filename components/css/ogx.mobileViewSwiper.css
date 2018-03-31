@@ -1,10 +1,10 @@
 .ogx_mobile_view_swiper_views{
 	position:relative;
     display:block;
+	height:100%;
     z-index:666;
     overflow:hidden;
     transition:0.3s ease-in-out;    
-    background-color:#E4E4E4;
 }
 .ogx_mobile_view_swiper_view{
 	box-sizing:border-box;
