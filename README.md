@@ -3,6 +3,10 @@
 ![build](https://img.shields.io/teamcity/codebetter/bt428.svg)
 
 #### News
+>2018-04-12
+>Wiki rewritting with proper class names for unified framework started
+
+
 >2018-04-06
 >Renaming almost done, more automated stuff. All components are moving to js/bin with final naming and unified variable naming
 >All components will all handle both desktop & mobile (where appropriate). 
