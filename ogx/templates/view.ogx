@@ -1,0 +1,33 @@
+OGX.View.prototype.Template = function(){
+	'use strict';
+	var that = this;
+    
+    this.constructor = function(){	
+		this.observe(false);    
+        this.ux(true);      
+    };
+    
+    //optional - turn on listeners
+	this.focus = function(){
+		//this.ux(true);
+	};
+
+	//optional- turn off listeners
+	this.blur = function(){
+		//this.ux(false);
+	};
+	
+	this.ux = function(__bool){
+        if(__bool){
+          
+        }else{
+            
+        }
+    }; 
+    
+    this.destroy = function(){
+       
+    };
+
+};
+OGX.View.Template = {scopes:['public']};

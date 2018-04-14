@@ -1,0 +1,13 @@
+.ogx_scroll_list{
+	-webkit-overflow-scrolling:touch;
+}
+.ogx_scroll_list_item{
+	display:block;
+	box-sizing:border-box;
+	position:absolute;
+	width:100%;
+	font-family:OSreg;
+	font-size:16px;
+	padding:5px;
+	border-bottom:1px solid #DDD;
+}

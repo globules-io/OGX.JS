@@ -1,0 +1,54 @@
+.ogx_tag_manager{
+    display:block;
+	margin-top:5px;
+	background-color:#FFF;
+	border:1px solid #DDD;
+	border-radius:2px;	
+}
+.ogx_tag_manager input[type=text]{
+	border:none;
+	background-color:transparent;	
+	width:auto;
+	padding-bottom:5px;
+    padding-left:5px;
+    font-size:18px;
+    font-family:OSlight;
+}
+.ogx_tag_manager input[type=text]:focus{
+    outline:0 none;
+}
+.ogx_tag_manager_tags{
+	
+}
+.ogx_tag_manager_tag{
+	display:inline-block; 
+	margin:5px 0px 5px 5px;
+	border-radius:2px;
+	font-size:16px;	
+	font-family:OSreg;
+	background-color:#000;
+	color:#EEE;
+	padding:6px 8px 6px 8px;	
+}
+.ogx_tag_manager_tags_container{
+	background-color:#FFF;
+	border-top:1px solid #DDD;
+	margin-top:5px;	
+}
+.ogx_tag_manager_tags_container_tag{
+	cursor:pointer;
+}
+.ogx_tag_manager_remove{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    vertical-align:text-top;
+    margin-left:6px;	
+	margin-bottom:-5px;
+    cursor:pointer;
+    background-image:url('../../img/trash.svg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    
+}

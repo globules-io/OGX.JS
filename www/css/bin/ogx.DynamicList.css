@@ -1,0 +1,15 @@
+.ogx_dynamic_list{
+	display:block;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	-webkit-overflow-scrolling:touch;
+}
+.ogx_dynamic_list_item{
+	display:block;
+	box-sizing:border-box;
+	overflow:hidden;
+}
+.ogx_dynamic_list_selected_item{
+}

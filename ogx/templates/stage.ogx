@@ -1,0 +1,16 @@
+OGX.prototype.MyStage = function(){
+	'use strict';
+	var that = this;
+
+	this.constructor = function(){	
+	    app.goto('stage1/home');
+	};
+	
+	this.ux = function(__bool){
+        if(__bool){
+            
+        }else{
+           
+        }
+	};    
+};

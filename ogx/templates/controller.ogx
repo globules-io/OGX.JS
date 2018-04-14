@@ -1,0 +1,15 @@
+OGX.Controller.prototype.Template = function(){
+    'use strict';
+    this.constructor = function(){
+    
+    };
+    
+    this.ux = function(){
+    
+    };
+    
+    this.destroy = function(){
+    
+    };
+    
+};
