@@ -4,7 +4,7 @@
 
 #### News
 >2018-04-14
->Repo cleared and readding all renamed packages to new structure
+>Repo cleared and re-adding all renamed packages to new structure
 
 >2018-04-12
 >Wiki rewritting with proper class names for unified framework started
