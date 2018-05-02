@@ -1,0 +1,15 @@
+{
+    "routing":{
+        
+    },
+    "stages":{
+       
+    },
+    "templates":{
+        
+    },    
+    "scopes":["public"],
+    "overlays":{
+        "overlay_delay":350
+    }
+}
