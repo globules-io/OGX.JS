@@ -1,0 +1,45 @@
+.ogx_quad_swiper{
+    display:block;
+    box-sizing:border-box;   
+    width:100%;
+    height:100%;    
+    background-color:#EEE;   
+    overflow:hidden;
+}
+.ogx_quad_swiper_container{
+    margin:0;
+    display:inline-flex;
+    box-sizing:border-box;
+    flex-direction:row;
+    flex-wrap:wrap;
+    flex-grow:1;
+    position:relative;   
+    width:300%;
+    overflow:hidden;
+}
+.ogx_quad_swiper_col{
+    display:inline-flex;
+    box-sizing:border-box; 
+    flex-direction:column;
+    flex-basis:33%;
+    flex-grow:1;
+    height:100%;
+}
+.ogx_quad_swiper_item_container{
+    display:flex;
+    box-sizing:border-box; 
+    flex-wrap:wrap;
+    align-content:flex-start;
+    height:100%;
+    padding:5px 0px 0px 5px;
+}
+.ogx_quad_swiper_item{
+    display:inline-block;
+    box-sizing:border-box;   
+    width:100%;
+    flex-grow:1;  
+    overflow:hidden;
+}
+.ogx_quad_swiper_anim{
+	transition:all 200ms;
+}
