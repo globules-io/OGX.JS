@@ -12,7 +12,7 @@
 	padding-bottom:5px;
     padding-left:5px;
     font-size:18px;
-    font-family:OSlight;
+    font-family:RBlight;
 }
 .ogx_tag_manager input[type=text]:focus{
     outline:0 none;
@@ -22,13 +22,13 @@
 }
 .ogx_tag_manager_tag{
 	display:inline-block; 
-	margin:5px 0px 5px 5px;
+	margin:5px 5px 5px 0px;
 	border-radius:2px;
 	font-size:16px;	
-	font-family:OSreg;
+	font-family:RBreg;
 	background-color:#000;
-	color:#EEE;
-	padding:6px 8px 6px 8px;	
+    color:#DDD;
+	padding:6px 12px 6px 12px;	
 }
 .ogx_tag_manager_tags_container{
 	background-color:#FFF;

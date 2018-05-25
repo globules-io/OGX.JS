@@ -35,6 +35,7 @@
 	font-family:OSreg;
 	font-size:15px;
 	padding-top:3px;
+    text-transform:capitalize;
 }
 .ogx_switch_label_on{
     font-family:OSsemi;

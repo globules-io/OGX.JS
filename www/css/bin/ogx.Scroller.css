@@ -7,40 +7,40 @@
 	position:relative;
 }
 .ogx_scroller_inner{
-    display:block;
+    display:inline-block;
     box-sizing:border-box;
     width:100%;
+    flex-grow:1;
     position:relative;
-    min-height:100%;
 }
-.ogx_scroller_container{
+.ogx_scroller_track{
     display:block;
     position:absolute;
     top:0;
     width:3px;
     z-index:9999999;
 }
-.ogx_scroller_container_button{
+.ogx_scroller_track_button{
     position:relative;
     top:0;
 	/*iOS display none -Android display block*/
     display:block;
     opacity:0;
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color:rgba(0, 0, 0, 1);
     width:3px;
     z-index:9999999;
 }
 /*iOS only*/
-.ogx_window .ogx_scroller_container_button{
+.ogx_window .ogx_scroller_track_button{
 	display:block !important;
 }
 /*iOS only end*/
-.ogx_scroller_container_anim{
+.ogx_scroller_track_anim{
     transition:opacity 500ms;   
 }
-.ogx_scroller_container_anim_fade_in{
+.ogx_scroller_track_anim_fade_in{
     opacity:1;
 }
-.ogx_scroller_container_anim_fade_out{
+.ogx_scroller_track_anim_fade_out{
     opacity:0;
 }
