@@ -3,6 +3,9 @@
 ![build](https://img.shields.io/teamcity/codebetter/bt428.svg)
 
 #### News
+>2018-06-28
+>Video tutorials production started
+
 >2018-06-21
 >Only a few packages left to push, CSS update coming next
 
