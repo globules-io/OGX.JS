@@ -1,8 +1,0 @@
-OGX.Waypoint.prototype.Template = function(){
-      'use strict';
-      let waypoint = this;
-
-      this.constructor = function(__object, __template){  
-          
-      };
- };
