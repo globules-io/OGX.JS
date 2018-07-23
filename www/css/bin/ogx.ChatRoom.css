@@ -4,6 +4,7 @@
 	height:100%;
 	overflow:hidden;
 	transition:all 0.2s;
+    background-color:#171717 !important;
 }
 .ogx_chatroom_messages{
 	display:inline-block; 
@@ -33,7 +34,7 @@
 	width:100%;
 	resize:none;
 	border:none;
-	font-family:OSlight;
+	font-family:RBlight;
 	font-size:16px;
 	outline:none;
 }
@@ -53,7 +54,7 @@
 	width:100%;
 	box-sizing:border-box;
 	margin-bottom:10px;
-	font-family:OSreg;
+	font-family:RBreg;
 	opacity:0;	
 	transition:opacity 400ms;
 }
@@ -88,6 +89,9 @@
 	margin-right:10px;
 	background-color:#1c87d8;
 	color:#98bcd6;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
 }
 .ogx_chatroom_message_icon span{
 	display:inline-block;
@@ -101,7 +105,7 @@
 .ogx_chatroom_message_date{
 	display:block;
 	box-sizing:border-box;	
-	font-family:OSlight;
+	font-family:RBlight;
 	font-size:10px;	
 	color:#999;
 	margin-right:4px;
@@ -119,7 +123,7 @@
 	width:100%;
 	box-sizing:border-box;
 	margin-bottom:10px;
-	font-family:OSreg;
+	font-family:RBlight;
 }
 .ogx_chatroom_typing_body{
 	display:inline-block;

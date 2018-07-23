@@ -1,5 +1,5 @@
 .ogx_scroller_outer{
-    display:flex;
+    display:block;
     width:100%;
     box-sizing:border-box;
     padding:0;
@@ -7,10 +7,10 @@
 	position:relative;
 }
 .ogx_scroller_inner{
-    display:inline-block;
+    display:block;
     box-sizing:border-box;
     width:100%;
-    flex-grow:1;
+    min-height:100%;
     position:relative;
 }
 .ogx_scroller_track{
@@ -26,7 +26,7 @@
 	/*iOS display none -Android display block*/
     display:block;
     opacity:0;
-    background-color:rgba(0, 0, 0, 1);
+    background-color:rgba(255, 255, 255, 0.9);
     width:3px;
     z-index:9999999;
 }

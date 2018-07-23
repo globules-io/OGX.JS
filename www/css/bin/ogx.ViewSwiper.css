@@ -11,12 +11,10 @@
 	box-sizing:border-box;
     display:inline-block;
     vertical-align:top; 
+    /*border:1px solid #DDD;*/
     height:100%;
     overflow:hidden;
 }
 .ogx_view_swiper_anim{
     transition:all 0.3s;
-}
-.ogx_view_swiper_noanim{
-    transition:none !important;
 }
