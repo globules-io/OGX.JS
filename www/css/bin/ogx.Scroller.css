@@ -4,6 +4,7 @@
     box-sizing:border-box;
     padding:0;
     overflow-y:scroll !important;  
+    -webkit-overflow-scrolling:touch;
 	position:relative;
 }
 .ogx_scroller_inner{
