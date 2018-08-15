@@ -5,11 +5,43 @@
     "stages":{
        
     },
+	"views":{
+		"delay":30
+	},
+	"popups":{
+		"width":300,
+        "height":400,
+        "anim":"OGX.Popup.ANIM_FADE",
+        "overlay":true,
+        "listen_overlay":false
+	},
+	"windows":{
+		"style":"OGX.Window.STYLE_BACK",
+        "width":"100%",
+        "icons":["/img/logo.svg"],
+        "fade":false,
+        "scroll":false
+	},
+	"overlays":{
+		"delay":30
+	},
     "templates":{
-        
-    },    
-    "scopes":["public"],
-    "overlays":{
-        "overlay_delay":350
-    }
+        "path":"/html/templates/",
+		"files":{
+           
+        }		
+    },  
+	"preload":{
+        "images":{
+            "path":"/img/",
+            "files":[]
+        },
+        "sounds":{
+            "path":"/snd/",
+            "files":{
+                
+            }
+        }
+    },   	
+    "scope":["public"]    
 }
