@@ -3,6 +3,9 @@
 ![build](https://img.shields.io/teamcity/codebetter/bt428.svg)
 
 #### News
+>2018-08-15
+>Version 0.7.1, no further refactoring expected. Tutorials still in production, wiki partially updated.
+
 >2018-06-28
 >Video tutorials production started
 
