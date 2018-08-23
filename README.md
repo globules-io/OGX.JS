@@ -3,6 +3,9 @@
 ![build](https://img.shields.io/teamcity/codebetter/bt428.svg)
 
 #### News
+>2018-08-23
+>Moving to a weekly or so pre release build, won't update news about it, check release page. Older releases get shafted.
+
 >2018-08-19
 >Version 0.7.4 released (stable).
 
