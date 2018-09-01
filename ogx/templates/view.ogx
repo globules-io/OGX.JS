@@ -1,5 +1,6 @@
-OGX.View.prototype.Template = function(){
+OGX.Views.Template = function(){
 	'use strict';
+	OGX.BaseView.call(this);
 	var that = this;
     
     this.constructor = function(){	
@@ -30,4 +31,3 @@ OGX.View.prototype.Template = function(){
     };
 
 };
-OGX.View.Template = {scopes:['public']};

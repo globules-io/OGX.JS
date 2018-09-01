@@ -1,5 +1,6 @@
-OGX.prototype.MyStage = function(){
+OGX.Stages.MyStage = function(){
 	'use strict';
+	OGX.BaseStage.call(this);
 	var that = this;
 
 	this.constructor = function(){	

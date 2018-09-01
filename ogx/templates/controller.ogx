@@ -1,4 +1,4 @@
-OGX.Controller.prototype.Template = function(){
+OGX.Controllers.Template = function(){
     'use strict';
     this.constructor = function(){
     
