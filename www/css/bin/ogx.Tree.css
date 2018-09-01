@@ -1,0 +1,83 @@
+.ogx_tree_container{
+	position:relative;
+	left:30px;	
+	margin-bottom:5px;	
+	width:1px;
+	white-space:nowrap;
+}
+.ogx_tree_root{	
+	/*
+	background-image:url('/img/graphy.png');
+	background-repeat:repeat;
+	border:1px solid #CCC;
+	border-radius:1px;
+	overflow:auto;
+	min-height:500px;
+	*/
+}
+.ogx_tree_root_container{
+	position:relative;	
+	left:30px;
+	width:1px;
+	white-space:nowrap;
+}
+.ogx_tree_item{
+	font-size:10px;	
+	color:#333;	
+}
+.ogx_tree_selected{	
+	border-bottom:solid 4px #074F41;
+	background-color:rgba(7, 77, 65, 0.1);	
+}
+.ogx_tree_item_arrow{
+	display:inline-block;
+	box-sizing:border-box;	
+	vertical-align:top;
+	margin-top:7px;
+	transition:all 0.2s;
+}
+.ogx_tree_item_arrow span{
+	display:block;
+	box-sizing:border-box;
+	width:20px;
+	height:20px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-image:url('../../img/arrow.svg');
+}
+.ogx_tree_item_arrow_open{
+	transform:rotate(90deg);
+}
+.ogx_tree_item_arrow_close{
+	transform:rotate(0deg);
+}
+.ogx_tree_item_arrow_alpha{
+	opacity:0.3;
+	transform:rotate(0deg) !important;
+}
+.ogx_tree_item_arrow_hidden{
+	visibility:hidden;
+}
+.ogx_tree_item_container_hidden{
+	display:none;
+}
+.ogx_tree_item img{
+	display:inline-block;
+	vertical-align:text-bottom;
+}
+.ogx_tree_item_label{
+	display:inline-block;
+	margin-left:5px;	
+	text-shadow:1px 1px 2px rgba(102, 102, 102, 0.6);
+}
+.ogx_tree_item_drag{
+	display:block;
+	position:absolute;
+	z-index:500;
+}
+.ogx_tree_drag{
+	position:absolute;
+	z-index:9999;	
+}
+
