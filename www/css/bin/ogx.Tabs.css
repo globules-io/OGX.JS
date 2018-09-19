@@ -46,10 +46,10 @@
     display:inline-block;
     box-sizing:border-box;
     position:absolute;
-    top:5px;
+    padding-top:5px;
     right:0px;
-    width:25px;
-    height:25px;   
+    width:26px;
+    height:26px;   
     background-color:#EEE; 
     text-align:center;
     visibility:hidden;
@@ -72,4 +72,22 @@
 .ogx_tabs_tab_active .ogx_tabs_tab_close{
     background-color:#FFF;
     visibility:visible;
+}
+.ogx_tabs_tab_add{
+    display:inline-block;
+    box-sizing:border-box;
+    text-align:center;
+    padding-top:12px;
+}
+.ogx_tabs_tab_add span{
+    display:block;
+    box-sizing:border-box;  
+    width:16px;
+    height:16px; 
+    background-image:url('../../img/add.svg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;   
+    margin:auto;
+   
 }
