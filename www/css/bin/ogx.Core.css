@@ -191,13 +191,27 @@ body{
     flex-grow:1;
     box-sizing:border-box;
 }
+.ogx_popup_tabs{	
+	height:44px;
+}
+.ogx_popup_swiper_container{
+	display:inline-block;
+	flex-grow:1;
+	position:relative;
+}
+.ogx_popup_swiper{
+	display:block;
+    box-sizing:border-box;
+    width:100%;
+    height:100%;
+    position:absolute;
+}
 .ogx_popup_buttons{
     display:block;
     box-sizing:border-box;
     text-align:right;
     flex-basis:50px;
-	padding-right:30px;  
-	padding-bottom: 10px; 
+    padding-right:30px;   
 }
 .ogx_popup_button{
     display:inline-block;
