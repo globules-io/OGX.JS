@@ -4,8 +4,7 @@
     box-sizing:border-box;
 	height:100%;
     z-index:666;
-    overflow:hidden;
-    transition:0.3s ease-in-out;    
+    overflow:hidden;   
 }
 .ogx_view_swiper_view{
 	box-sizing:border-box;
