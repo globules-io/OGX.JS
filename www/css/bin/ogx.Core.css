@@ -234,6 +234,9 @@ body{
 	width:20px;
 	height:20px;
 }
+.ogx_popup_resize:last-of-type{
+	right:0px;
+}
 .ogx_popup_fade_in{
 	transition:opacity 0.5s;
 	opacity:1 !important;
