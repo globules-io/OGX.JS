@@ -222,6 +222,18 @@ body{
     margin-left:30px;  
     padding:10px 0px 10px 0px;
 }
+.ogx_popup_resizes{
+	display:block;
+	position:relative;
+	width:100%;
+	bottom:20px;
+}
+.ogx_popup_resize{
+	display:block;
+	position:absolute;
+	width:20px;
+	height:20px;
+}
 .ogx_popup_fade_in{
 	transition:opacity 0.5s;
 	opacity:1 !important;
