@@ -1,8 +1,10 @@
 # OGX.JS
 ### Javascript FieldWork from [globules.io](http://globules.io)
-![build](https://img.shields.io/teamcity/codebetter/bt428.svg)
 
 #### News
+>2019-02-15
+>Last module left to refactor (Calendar) to hit v0.9 then a few bits here and there for v1.0. 
+
 >2018-08-23
 >Moving to a weekly or so pre release build, won't update news about it, check release page. Older releases get shafted.
 
