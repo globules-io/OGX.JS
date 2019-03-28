@@ -1,5 +1,6 @@
 .ogx_dynamic_list_item{
 	position:relative;
+	transform:translateZ(0);
 }
 .ogx_dynamic_list_swiper_back_item{
 	position:absolute;
@@ -13,6 +14,7 @@
 	background-size:contain;	
 	font-size:14px;
 	overflow:hidden;
+	transform:translateZ(0);
 }
 .ogx_dynamic_list_swiper_left{
 	background-position:10% center;
@@ -26,8 +28,8 @@
 .ogx_dynamic_list_swiper_delete{
 	position:relative;
 	opacity:0;
-	height:0px !important;
 	transition:all 0.4s ease-out;	
+	transform:translateZ(0);
 }
 .ogx_dynamic_list_swiper_work{
 	z-index:10;
