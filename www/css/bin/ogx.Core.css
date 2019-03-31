@@ -223,6 +223,10 @@ body{
     text-align:right;
     flex-basis:50px;
 	padding-right:30px;  
+	transition:all 0.3s;
+}
+.ogx_popup_buttons_disabled{
+	opacity:0.3;
 }
 .ogx_popup_button{
     display:inline-block;
