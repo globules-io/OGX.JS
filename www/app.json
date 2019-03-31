@@ -42,7 +42,8 @@
                 
             }
         },
-		"fonts":[]
+        "fonts":[],
+        "json":[]
     },   	
     "scope":["public"]    
 }
