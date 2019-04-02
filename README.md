@@ -1,5 +1,6 @@
 # OGX.JS
 ### Javascript FieldWork from [globules.io](http://globules.io)
+### Check out the [wiki](https://github.com/globules-io/OGX.JS/wiki)
 
 #### News
 >2019-04-01
