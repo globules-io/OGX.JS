@@ -2,6 +2,9 @@
 ### Javascript FieldWork from [globules.io](http://globules.io)
 
 #### News
+>2019-04-01
+>1000th commit! We're gonna hit v0.9 any days now. But for now, latest stable is 0.8.15
+
 >2019-02-15
 >Last module left to refactor (Calendar) to hit v0.9 then a few bits here and there for v1.0. 
 
