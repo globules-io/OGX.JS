@@ -7,6 +7,7 @@
 	overflow:hidden;
     transform:translate3d(0, 0, 0);   
     background-color:#222;
+    transition:height 0.3s
 }
 .ogx_nested_list_prep{
     position:absolute;
@@ -60,10 +61,4 @@
     display:block;
     padding:10px;
     color:#333;
-}
-.ogx_nested_list_end{
-    display:block;
-    width:100%;
-    height:100%;
-    background-color:#222;
 }
