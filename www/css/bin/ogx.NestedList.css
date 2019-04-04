@@ -1,36 +1,34 @@
 .ogx_nested_list{
-	display:none;
+	display:block;
 	box-sizing:border-box;
-	width:100%;
-	font-family:OSreg;
-	font-size:16px;
+    width:100%;
+    height:100%;
+    font-size:16px;
+    color:#EEE;
 	overflow:hidden;
-	border:1px solid #DDD;
-	border-radius:2px;
     transform:translate3d(0, 0, 0);   
-    backface-visibility:hidden;  
-    perspective:1000;
+    background-color:#222;
+}
+.ogx_nested_list_prep{
+    position:absolute;
+    top:-10000;
+    visibility:hidden;
+    display:'block';	
 }
 .ogx_nested_list_item{
-	display:block;
-	box-sizing:border-box;
+    display:block;   
+    position:relative;
 	width:100%;	
-	overflow:hidden;
-	border-bottom:1px solid #DDD;
     transform:translate3d(0, 0, 0);   
-    backface-visibility:hidden;  
-    perspective:1000;
-}
-.ogx_nested_list_item_hidden{
-	display:none;
+    transition:all 0.3s;	
 }
 .ogx_nested_list_item_head{
-	display:block;
-	box-sizing:border-box;
-	width:100%;	
-	background-repeat:no-repeat;	
-	background-position:right;
-	background-color:#FFF;
+    display:block;
+    width:100%;
+    background-color:#222;
+    background-repeat:no-repeat;	
+    background-position-y:center;
+    background-position-x:calc(100% - 10px);
 }
 .ogx_nested_list_item_head_open{
 	background-image:url('../../../img/down.svg');
@@ -38,33 +36,30 @@
 .ogx_nested_list_item_head_closed{
 	background-image:url('../../../img/up.svg');
 }
+.ogx_nested_list_item_hidden{
+	display:none;
+}
+.ogx_nested_list_item_noanim{
+	transition:none !important;	
+}
 .ogx_nested_list_item_title{
 	display:block;
 	box-sizing:border-box;
 	width:100%;
-	padding:5px 5px 5px 10px;
-	font-family:OSsemi;	
+	padding:7px 5px 10px 10px;
+	font-family:RBsemi;	
 	font-size:16px;
-	color:#333;
 }
 .ogx_nested_list_item_body{
-	display:block;
-	box-sizing:border-box;
-	width:100%;
-	overflow:hidden;	
-    background-color:#F8F8F8;
+	position:absolute;
+    display:block;
+    width:100%;   
+    color:#EEE;
+    background-color:#EEE;
 }
-.ogx_nested_list_item_content{
-	display:block;
-	box-sizing:border-box;
-	width:100%;
-	padding:10px;
-	background-color:#F8F8F8;
-	border-top:1px solid #DDD;
-}
-.ogx_nested_list_item_body_anim_in{
-	transition:max-height 200ms;	
-}
-.ogx_nested_list_item_body_anim_out{
-	transition:max-height 200ms;	
+.ogx_nested_list_end{
+    display:block;
+    width:100%;
+    height:100%;
+    background-color:#222;
 }
