@@ -63,6 +63,7 @@
 }
 .ogx_chatroom_message_left{
 	text-align:left;
+	padding-left:10px;
 }
 .ogx_chatroom_message_left .ogx_chatroom_message_body{
 	margin-right:10px;
