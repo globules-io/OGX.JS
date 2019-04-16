@@ -12,6 +12,8 @@
 	background-color:#CC0000;	
 	background-repeat:no-repeat;
 	background-size:contain;	
+	background-image:url('../../../img/trash.svg');
+    background-size:7%;	
 	font-size:14px;
 	overflow:hidden;
 	transform:translateZ(0);
@@ -33,4 +35,12 @@
 }
 .ogx_dynamic_list_swiper_work{
 	z-index:10;
+}
+.ogx_dynamic_list_swiper_side_right{
+	background-color:#CC0000 !important;	
+	background-image:url('../../../img/trash.svg') !important;
+}
+.ogx_dynamic_list_swiper_side_left{
+	background-color:#06aa14 !important;	
+	background-image:url('../../../img/check.svg') !important;	
 }
