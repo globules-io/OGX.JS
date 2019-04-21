@@ -3,6 +3,9 @@
 ### Check out the [wiki](https://github.com/globules-io/OGX.JS/wiki)
 
 #### News
+>2019-04-21
+>0.9 branch started. Few components left to add support to scoping, calendar, theater and a few remaining fixes/renaming
+
 >2019-04-01
 >1000th commit! We're gonna hit v0.9 any days now. But for now, latest stable is 0.8.15
 
