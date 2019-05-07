@@ -108,11 +108,13 @@ body{
 .ogx_window_icons{
 	position:absolute;
 	display:inline-block;
-	box-sizing:border-box;
-	right:10px;
+	box-sizing:border-box;	
 }
-.ogx_window_icons::after{
-	clear:both;
+.ogx_window_head_left .ogx_window_icons{
+    left:10px;
+}
+.ogx_window_head_right .ogx_window_icons{
+    right:10px;
 }
 .ogx_window_icon{
     display:inline-block;
@@ -130,9 +132,12 @@ body{
  
 }
 .ogx_window_title{
-	display:inline-block;	
-	font-size:14px;
-    font-family:OSreg;
+    display:inline-block;	
+    position:absolute;
+    width:100%;	
+	font-size:16px;
+	padding-top:6px;
+    left:0;
 }
 .ogx_popup{
 	display:flex;
