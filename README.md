@@ -7,6 +7,9 @@
 ### Check out the [wiki](https://github.com/globules-io/OGX.JS/wiki)
 
 #### News
+>2019-06-05
+>QuadSwiper retired (will be removed), use GridSwiper instead. Calendar now based on GridSwiper, custom calendar engines wip
+
 >2019-04-21
 >0.9 branch started. Few components left to add support to scoping, calendar, theater and a few remaining fixes/renaming
 
