@@ -16,6 +16,9 @@
     position:absolute;
     box-shadow:inset 0px 0px 0px 1px #000;
 }
+.ogx_grid_swiper_cell_content{
+    display:block;
+}
 .ogx_grid_swiper_anim{
 	transition:all 200ms;
 }
