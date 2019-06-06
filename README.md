@@ -7,6 +7,9 @@
 ### Check out the [wiki](https://github.com/globules-io/OGX.JS/wiki)
 
 #### News
+>2019-06-06
+>[Youtube channel](https://www.youtube.com/channel/UC7M1lpMhYbb0HSZ3srE4smQ) for upcoming video tutorial, old alpha sneak peak content might be removed when final is out 
+
 >2019-06-05
 >QuadSwiper retired (will be removed), use GridSwiper instead. Calendar now based on GridSwiper, custom calendar engines wip
 
