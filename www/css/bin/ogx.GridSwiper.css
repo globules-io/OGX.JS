@@ -10,10 +10,14 @@
 .ogx_grid_swiper_container{
     display:block;
     position:absolute;
+    width:calc(100%*3);
+    height:calc(100%*3);
 }
 .ogx_grid_swiper_cell{
     display:block;
     position:absolute;
+    width:calc(100%/3);
+    height:calc(100%/3);
     box-shadow:inset 0px 0px 0px 1px #000;
 }
 .ogx_grid_swiper_cell_content{
