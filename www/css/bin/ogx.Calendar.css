@@ -14,13 +14,22 @@
     display:block;
     width:100%;
     text-align:center;
-    padding:2px;
+    padding:2px;    
+}
+.ogx_calendar .ogx_calendar_head_date .ogx_calendar_display_date{
+    display:inline-block;
+    font-family:RBreg;
+}
+.ogx_calendar .ogx_calendar_head_date .ogx_calendar_selected_date{
+    display:inline-block;
+    font-family:RBsemi;
 }
 .ogx_calendar .ogx_calendar_head_labels{
     display:flex;
     flex-direction:row;
     width:100%;  
     padding-left:5px;
+    font-family:RBreg;
 }
 .ogx_calendar .ogx_calendar_head_labels > *{
     display:inline-block;
@@ -40,7 +49,7 @@
     padding:5px 0px 0px 5px;
 }
 .ogx_calendar .ogx_calendar_selected_item{
-    box-shadow:inset 0px 0px 0px 3px rgba(221, 9, 9, 1) !important;
+    box-shadow:inset 0px 0px 0px 3px #5d96ec !important;
 }
 /*LAYOUTS*/
 /*month days*/
@@ -63,13 +72,14 @@
     transition:all 1s cubic-bezier(.22,.61,.36,1);
     transform:translateZ(0);
     backface-visibility:hidden;
+    font-family:RBreg !important;
 }
 .ogx_calendar .ogx_calendar_layout_month_days_offset{
     background-color:#AAA;
 }
 .ogx_calendar .ogx_calendar_layout_month_days_today{
-    background-color:#53b96d;
-    color:#EEE !important;   
+    background-color:#dfffe7;
+    color:#333 !important;   
 }   
 /*century decade*/
 .ogx_calendar .ogx_calendar_layout_century_decades{
@@ -86,8 +96,8 @@
     border-radius:6px;
 }
 .ogx_calendar .ogx_calendar_layout_century_decades_current{
-    background-color:#53b96d;
-    color:#EEE !important;   
+    background-color:#dfffe7;
+    color:#333 !important;   
 }
 /*century years*/
 .ogx_calendar .ogx_calendar_layout_century_years{
@@ -105,8 +115,8 @@
     border-radius:6px;
 }
 .ogx_calendar .ogx_calendar_layout_century_years_current{
-    background-color:#53b96d;
-    color:#EEE !important;   
+    background-color:#dfffe7;
+    color:#333 !important;   
 }
 /*decade years*/
 .ogx_calendar .ogx_calendar_layout_decade_years{
@@ -123,8 +133,8 @@
     border-radius:6px;
 }
 .ogx_calendar .ogx_calendar_layout_decade_years_current{
-    background-color:#53b96d;
-    color:#EEE !important;   
+    background-color:#dfffe7;
+    color:#333 !important;   
 }
 /*decade months 12 * 10  - flex-direction in ogx_grid_swiper_cell_content should be set to column - adjust data-y to reflect the layout row*/
 /*
@@ -147,8 +157,8 @@
     border-radius:6px;
 }
 .ogx_calendar .ogx_calendar_layout_decade_months_current{
-    background-color:#53b96d;
-    color:#EEE !important;   
+    background-color:#dfffe7;
+    color:#333 !important;   
 }
 /*year months*/
 .ogx_calendar .ogx_calendar_layout_year_months{
@@ -164,10 +174,11 @@
     background-color:#FFF;
     transform:translateZ(0);
     border-radius:6px;
+    font-family:RBreg !important;
 }
 .ogx_calendar .ogx_calendar_layout_year_months_current{
-    background-color:#53b96d;
-    color:#EEE !important;   
+    background-color:#dfffe7;
+    color:#333 !important;   
 }
 /*year weeks 4 * 13*/
 .ogx_calendar .ogx_calendar_layout_year_weeks{
@@ -185,8 +196,8 @@
     border-radius:6px;
 }
 .ogx_calendar .ogx_calendar_layout_year_weeks_current{
-    background-color:#53b96d;
-    color:#EEE !important;   
+    background-color:#dfffe7;
+    color:#333 !important;   
 }
 /*year days 20 * 19 */
 .ogx_calendar .ogx_calendar_layout_year_days{
@@ -204,8 +215,27 @@
     border-radius:6px;
 }
 .ogx_calendar .ogx_calendar_layout_year_days_current{
-    background-color:#53b96d;
-    color:#EEE !important;   
+    background-color:#dfffe7;
+    color:#333 !important;   
+}
+/*week days 7 * 1*/
+.ogx_calendar .ogx_calendar_layout_week_days{
+    display:inline-block;
+    flex-basis:10%;
+    flex-grow:1;
+    flex-shrink:1;
+    height:calc(100% - 5px);
+    max-width:calc(100%/7 - 5px);
+    border:1px solid #DDD;
+    margin-right:5px;
+    margin-bottom:5px;
+    background-color:#FFF;
+    transform:translateZ(0);
+    border-radius:6px;
+}
+.ogx_calendar .ogx_calendar_layout_week_days_current{
+    background-color:#dfffe7;
+    color:#333 !important;   
 }
 /*day hours 6 * 4*/
 .ogx_calendar .ogx_calendar_layout_days_hours{
@@ -223,8 +253,8 @@
     border-radius:6px;
 }
 .ogx_calendar .ogx_calendar_layout_days_hours_current{
-    background-color:#53b96d;
-    color:#EEE !important;   
+    background-color:#dfffe7;
+    color:#333 !important;   
 }
 /*day work hours 5 * 2 */
 .ogx_calendar .ogx_calendar_layout_days_work_hours{
@@ -242,8 +272,8 @@
     border-radius:6px;
 }
 .ogx_calendar .ogx_calendar_layout_days_work_hours_current{
-    background-color:#53b96d;
-    color:#EEE !important;   
+    background-color:#dfffe7;
+    color:#333 !important;   
 }
 /*ENGINES*/
 .ogx_calendar .ogx_calendar_engine_date_day_number{
