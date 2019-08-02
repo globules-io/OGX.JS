@@ -1,15 +1,18 @@
-OGX.Controllers.Template = function(){
+require('MyController', 'Controller');
+OGX.Controllers.MyController = function(){
+    construct(this, 'MyController');
     'use strict';
-    this.constructor = function(){
+    this.construct = function(){
     
     };
-    
-    this.ux = function(){
-    
+	
+	this.enable = function(){
+	};
+	
+	this.disable = function(){
     };
     
-    this.destroy = function(){
-    
-    };
-    
+    this.ux = function(){    
+    };    
+     
 };
