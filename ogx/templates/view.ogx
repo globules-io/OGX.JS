@@ -1,22 +1,14 @@
-OGX.Views.Template = function(){
+require('Views.MyView', 'Uxi', 'Touch');
+OGX.Views.MyView = function(__obj){
+    construct(this, 'Views.MyView');
 	'use strict';
-	OGX.BaseView.call(this);
-	var that = this;
-    
-    this.constructor = function(){	
-		this.observe(false);    
-        this.ux(true);      
-    };
-    
-    //optional - turn on listeners
-	this.focus = function(){
-		//this.ux(true);
+	var that = this;    
+  
+	this.enable = function(){
 	};
-
-	//optional- turn off listeners
-	this.blur = function(){
-		//this.ux(false);
-	};
+	
+	this.disable = function(){	
+	};    
 	
 	this.ux = function(__bool){
         if(__bool){
