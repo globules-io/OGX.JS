@@ -7,6 +7,9 @@
 ### Check out the [wiki](https://github.com/globules-io/OGX.JS/wiki)
 
 #### News
+>2019-08-02
+>Clearing repo and adding app template as final repo that will include the latest updated build. Framework available independently in the release section
+
 >2019-07-17
 >Repo not updated as we are merging v1.0, next update is the complete v1.0
 
