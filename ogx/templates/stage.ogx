@@ -1,10 +1,16 @@
-OGX.Stages.MyStage = function(){
+require('Stages.MyStage');
+OGX.Stages.MyStage = function(__obj){
+    construct(this, 'Stages.MyStage');
 	'use strict';
-	OGX.BaseStage.call(this);
-	var that = this;
 
-	this.constructor = function(){	
+	this.construct = function(){	
 	    app.goto('stage1/home');
+	};
+	
+	this.enable = function(){
+	};
+	
+	this.disable = function(){
 	};
 	
 	this.ux = function(__bool){
