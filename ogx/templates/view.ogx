@@ -1,4 +1,4 @@
-require('Views.MyView', 'Uxi', 'Touch');
+require('Views.MyView');
 OGX.Views.MyView = function(__obj){
     construct(this, 'Views.MyView');
 	'use strict';
