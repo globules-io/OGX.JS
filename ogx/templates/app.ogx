@@ -2,10 +2,10 @@
     "routing":{
 		"routes":{},
 		"options":{
-            "history":true,
-            "bookmarkable":true            
+			"history":true,
+			"bookmarkable":true            
         },
-        "errors":{}
+		"errors":{}
     },
     "stages":{
         
