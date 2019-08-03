@@ -1,49 +1,48 @@
 {
     "routing":{
-        
+		"routes":{},
+		"options":{
+			"history":true,
+			"bookmarkable":true            
+        },
+		"errors":{}
     },
     "stages":{
+        
+    },
+    "templates":{
        
     },
-	"views":{
-		"delay":30
-	},
+	"preload":{
+        "images":{
+            "path":"img/",
+            "files":[]
+        },
+        "sounds":{
+            "path":"snd/",
+            "files":[]
+        },
+        "fonts":[],
+        "json":{
+            "path":"json/",
+            "files":[]
+        }
+    },
 	"popups":{
-		"width":300,
+        "width":300,
         "height":400,
         "anim":"OGX.Popup.ANIM_FADE",
         "overlay":true,
         "listen_overlay":false
-	},
-	"windows":{
-		"style":"OGX.Window.STYLE_BACK",
+    },    
+    "windows":{
+        "style":"OGX.Window.STYLE_BACK",
         "width":"100%",
-        "icons":["/img/logo.svg"],
+        "icons":["img/logo.svg"],
         "fade":false,
         "scroll":false
-	},
-	"overlays":{
-		"delay":30
-	},
-    "templates":{
-        "path":"/html/templates/",
-		"files":{
-           
-        }		
-    },  
-	"preload":{
-        "images":{
-            "path":"/img/",
-            "files":[]
-        },
-        "sounds":{
-            "path":"/snd/",
-            "files":{
-                
-            }
-        },
-        "fonts":[],
-        "json":[]
-    },   	
+    },
+	"views":{},
+    "overlays":{},
     "scope":["public"]    
 }
