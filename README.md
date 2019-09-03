@@ -7,6 +7,9 @@
 ### Check out the [wiki](https://github.com/globules-io/OGX.JS/wiki)
 
 #### News
+>2019-09-03
+RC1 has been pushed, single files removed. OGX.List will be also available separately as it is a popular module.
+
 >2019-08-02
 >Clearing repo and adding app template as final repo that will include the latest updated build. Framework available independently in the release section
 
