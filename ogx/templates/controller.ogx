@@ -1,6 +1,6 @@
-require('MyController', 'Controller');
+require('Controllers.MyController', 'Controller');
 OGX.Controllers.MyController = function(){
-    construct(this, 'MyController');
+    construct(this, 'Controllers.MyController');
     'use strict';
     this.construct = function(){
     
