@@ -7,6 +7,9 @@
 ### Check out the [wiki](https://github.com/globules-io/OGX.JS/wiki)
 
 #### News
+>2019-09-24
+>RC6 pushed, available as pre release
+
 >2019-09-20
 >RC5 pushed, available as pre release
 
