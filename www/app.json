@@ -31,7 +31,7 @@
 	"popups":{
         "width":300,
         "height":400,
-        "anim":"OGX.Popup.ANIM_FADE",
+        "anim":"OGX.Popup.FADE",
         "overlay":true,
         "listen_overlay":false
     },    
