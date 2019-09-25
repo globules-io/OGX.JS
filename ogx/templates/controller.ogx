@@ -2,16 +2,21 @@ require('Controllers.MyController', 'Controller');
 OGX.Controllers.MyController = function(){
     construct(this, 'Controllers.MyController');
     'use strict';
+
+    //@Override
     this.construct = function(){
     
     };
 	
+    //@Override
 	this.enable = function(){
 	};
 	
+    //@Override
 	this.disable = function(){
     };
     
+    //@Override
     this.ux = function(){    
     };    
      

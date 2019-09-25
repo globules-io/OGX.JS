@@ -3,13 +3,16 @@ OGX.Views.MyView = function(__obj){
     construct(this, 'Views.MyView');
 	'use strict';
 	var that = this;    
-  
+    
+    //@Override
 	this.enable = function(){
 	};
 	
+    //@Override
 	this.disable = function(){	
 	};    
 	
+    //@Override
 	this.ux = function(__bool){
         if(__bool){
           
@@ -18,6 +21,7 @@ OGX.Views.MyView = function(__obj){
         }
     }; 
     
+    //@Override
     this.destroy = function(){
        
     };
