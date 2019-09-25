@@ -1,4 +1,4 @@
-require('Stages.MyStage');
+require('Stages.MyStage', 'Stage');
 OGX.Stages.MyStage = function(__obj){
     construct(this, 'Stages.MyStage');
 	'use strict';
