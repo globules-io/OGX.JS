@@ -1,5 +1,5 @@
 require('Views.MyView', 'View');
-OGX.Views.MyView = function(__obj){
+OGX.Views.MyView = function(__config){
     construct(this, 'Views.MyView');
 	'use strict';
 	var that = this;    
