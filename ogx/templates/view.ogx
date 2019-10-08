@@ -3,6 +3,11 @@ OGX.Views.MyView = function(__config){
     construct(this, 'Views.MyView');
 	'use strict';
 	var that = this;    
+
+    //@Override
+    this.construct = function(__route_data, __data){
+
+    };
     
     //@Override
 	this.enable = function(){
