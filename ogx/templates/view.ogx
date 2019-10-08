@@ -5,7 +5,7 @@ OGX.Views.MyView = function(__config){
 	var that = this;    
 
     //@Override
-    this.construct = function(__route_data, __data){
+    this.construct = function(__data, __route_data){
 
     };
     
