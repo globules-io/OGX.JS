@@ -8,7 +8,7 @@
 
 #### News
 >2019-10-09
->Refactoring finished, speed up 50%
+>Refactoring finished, speed up 50%, RC8 pushed
 
 >2019-10-01
 >Last minute refactoring a small object. We'd rather wait than release another JS fiasco.
