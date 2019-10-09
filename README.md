@@ -7,6 +7,9 @@
 ### Check out the [wiki](https://github.com/globules-io/OGX.JS/wiki)
 
 #### News
+>2019-10-09
+>Refactoring finished, speed up 50%
+
 >2019-10-01
 >Last minute refactoring a small object. We'd rather wait than release another JS fiasco.
 
