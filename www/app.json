@@ -36,7 +36,7 @@
         "listen_overlay":false
     },    
     "windows":{
-        "style":"OGX.Window.STYLE_BACK",
+        "head":"OGX.Window.HEAD_BACK",
         "width":"100%",
         "icons":["img/logo.svg"],
         "fade":false,
