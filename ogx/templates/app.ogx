@@ -7,7 +7,7 @@
         },
 		"errors":{}
     },
-    "stages":{
+    "vapps":{
         
     },
     "templates":{
@@ -36,13 +36,16 @@
         "listen_overlay":false
     },    
     "windows":{
-        "style":"OGX.Window.STYLE_BACK",
+        "style":"OGX.Window.HEAD_BACK",
         "width":"100%",
         "icons":["img/logo.svg"],
         "fade":false,
-        "scroll":false
+        "scroll":false,
+        "blured":true,
+        "show":false
     },
-	"views":{},
-    "overlays":{},
+    "overlays":{
+        "anim":"OGX.Overlay.ANIM_FADE"
+    },
     "scope":["public"]    
 }
