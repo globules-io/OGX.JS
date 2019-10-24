@@ -4,20 +4,15 @@ OGX.Controllers.MyController = function(){
     'use strict';
 
     //@Override
-    this.construct = function(){
-    
-    };
+    this.construct = function(){};
 	
     //@Override
-	this.enable = function(){
-	};
+	this.enable = function(){};
 	
     //@Override
-	this.disable = function(){
-    };
+	this.disable = function(){};
     
     //@Override
-    this.ux = function(){    
-    };    
+    this.ux = function(){};    
      
 };

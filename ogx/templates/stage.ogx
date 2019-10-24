@@ -3,18 +3,14 @@ OGX.Stages.MyStage = function(__obj){
     construct(this, 'Stages.MyStage');
 	'use strict';
 
-     //@Override
-	this.construct = function(){	
-	    app.goto('stage1/home');
-	};
+    //@Override
+	this.construct = function(){};
 	
     //@Override
-	this.enable = function(){
-	};
+	this.enable = function(){};
 	
     //@Override
-	this.disable = function(){
-	};
+	this.disable = function(){};
 	
     //@Override
 	this.ux = function(__bool){

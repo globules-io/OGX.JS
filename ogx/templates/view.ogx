@@ -5,17 +5,13 @@ OGX.Views.MyView = function(__config){
 	var that = this;    
 
     //@Override
-    this.construct = function(__data, __route_data){
-
-    };
+    this.construct = function(__data, __route_data){};
     
     //@Override
-	this.enable = function(){
-	};
+	this.enable = function(){};
 	
     //@Override
-	this.disable = function(){	
-	};    
+	this.disable = function(){};    
 	
     //@Override
 	this.ux = function(__bool){
@@ -27,8 +23,6 @@ OGX.Views.MyView = function(__config){
     }; 
     
     //@Override
-    this.destroy = function(){
-       
-    };
+    this.destroy = function(){};
 
 };
