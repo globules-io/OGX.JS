@@ -7,6 +7,9 @@
 ### Check out the [wiki](https://github.com/globules-io/OGX.JS/wiki)
 
 #### News
+>2019-10-28
+>RC9 pushed, available as pre release
+
 >2019-10-23
 >Additional tweaks added for easier Theming/Styling and multiple displays
 
