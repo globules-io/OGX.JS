@@ -4,7 +4,7 @@
 
 ### Javascript Framework from [globules.io](http://globules.io)
 
-### See it [in action](https://globules.io/framework)
+### [See it](https://globules.io/framework) in action
 
 ### Check out the [wiki](https://github.com/globules-io/OGX.JS/wiki)
 
