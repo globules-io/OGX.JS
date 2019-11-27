@@ -9,6 +9,9 @@
 ### Check out the [wiki](https://github.com/globules-io/OGX.JS/wiki)
 
 #### News
+>2019-11-27
+>Release 1.0.1
+
 >2019-11-21
 >RTM/1.0.0 in release, theme will be updated in themes then here
 
