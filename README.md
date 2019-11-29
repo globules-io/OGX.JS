@@ -6,4 +6,6 @@
 
 ### [See it](https://globules.io/framework) in action
 
+### [Check out](https://github.com/globules-io/OGX.Demo) the code of the demo
+
 ### Check out the [wiki](https://github.com/globules-io/OGX.JS/wiki)
