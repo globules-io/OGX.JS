@@ -1,9 +1,31 @@
 {
-  "name": "OGX.JS",
-  "version": "1.0.0",
+  "name": "@globules-io/ogx.js",
+  "version": "1.0.4x",
   "description": "Javascript framework for webviews",
   "dependencies": {
-    "moment": "moment/moment",
-    "jquery" : "jquery/jquery"
-  }
+	"fs-extra" : "latest",
+	"path" : "latest"	
+  },
+  "main": "install.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"postinstall": "node install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/globules-io/OGX.JS.git"
+  },
+  "keywords": [
+    "javascript",
+	"framework",
+    "webview",
+	"front-end",
+	"mobile"
+  ],
+  "author": "globules.io",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/globules-io/OGX.JS/issues"
+  },
+  "homepage": "https://github.com/globules-io/OGX.JS#readme"
 }
