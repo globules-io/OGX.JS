@@ -11,7 +11,10 @@
         
     },
     "templates":{
-       
+        "path":"html/templates/",
+        "files":{
+            
+        }
     },
 	"preload":{
         "images":{
