@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="100px" height="100px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;}
-</style>
-<g>
-	<path class="st0" d="M94,2c2.2,0,4,1.8,4,4v88c0,2.2-1.8,4-4,4H6c-2.2,0-4-1.8-4-4V6c0-2.2,1.8-4,4-4H94 M94,0H6C2.7,0,0,2.7,0,6
-		v88c0,3.3,2.7,6,6,6h88c3.3,0,6-2.7,6-6V6C100,2.7,97.3,0,94,0L94,0z"/>
-</g>
-<path class="st0" d="M59.8,43.9l-2.2,2.2c1.7,3.2,1.1,7.2-1.5,9.9c-3.3,3.3-8.7,3.3-12,0c-3.3-3.3-3.3-8.7,0-12
-	c2.7-2.7,6.8-3.2,10-1.5l2.2-2.2C51.8,37.5,45.8,38,42,41.9c-4.5,4.5-4.5,11.8,0,16.3c4.5,4.5,11.8,4.5,16.3,0
-	C62.1,54.3,62.6,48.4,59.8,43.9z"/>
-</svg>
+<svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="40px" height="40px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+  <path fill="#FFF" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z">
+    <animateTransform attributeType="xml"
+      attributeName="transform"
+      type="rotate"
+      from="0 25 25"
+      to="360 25 25"
+      dur="0.6s"
+      repeatCount="indefinite"/>
+    </path>
+  </svg>
