@@ -1,6 +1,6 @@
 # OGX.JS
 
-<p align="center"><img src="https://drive.google.com/uc?id=1NYWktWlilxIxjvXs65iYGsrLMGkW44di" style="display:inline-block; margin:auto;"/></p>
+![alt](https://repository-images.githubusercontent.com/76366703/6b5aa000-113d-11ea-8801-2949c79dabef)
 
 ### Javascript Framework from [globules.io](http://globules.io)
 
