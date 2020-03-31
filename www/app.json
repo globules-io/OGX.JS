@@ -34,16 +34,12 @@
 	"popups":{
         "width":300,
         "height":400,
-        "anim":"OGX.Popup.FADE",
-        "overlay":true,
-        "listen_overlay":false
+        "anim":"OGX.Popup.FADE"
     },    
     "windows":{
         "head":"OGX.Window.HEAD_BACK",
         "width":"100%",
-        "icons":["img/logo.svg"],
-        "fade":false,
-        "scroll":false
+        "icons":["img/logo.svg"]       
     },
 	"views":{},
     "overlays":{},
