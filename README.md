@@ -9,3 +9,5 @@
 ### Check out [the code](https://github.com/globules-io/OGX.Demo) of the demo
 
 ### Check out the [wiki](https://github.com/globules-io/OGX.JS/wiki)
+
+### Check out the [CLI](https://github.com/globules-io/OGX.CLI)
