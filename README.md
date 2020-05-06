@@ -14,7 +14,7 @@
 
 #### NEWS
 > 2020-05-05
-CLI is now available via NPM/Node, only compatible with version 1.1
+CLI is now available via NPM/Node, only compatible with version 1.5
 
 > 2020-05-04
-Version 1.1 coming up, breaking changes, check out the [changelog](https://github.com/globules-io/OGX.JS/wiki/changelog)
+Version 1.5 coming up, breaking changes, check out the [changelog](https://github.com/globules-io/OGX.JS/wiki/changelog)
