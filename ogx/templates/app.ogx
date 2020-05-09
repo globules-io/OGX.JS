@@ -10,33 +10,22 @@
     "vapps":{
         
     },
-    "templates":{
-       
-    },
 	"preload":{
-        "images":{
-            "path":"img/",
-            "files":[]
-        },
-        "sounds":{
-            "path":"snd/",
-            "files":[]
-        },
-        "fonts":[],
-        "json":{
-            "path":"json/",
-            "files":[]
-        }
+        "html":[],
+	    "img":[],
+	    "oml":[],
+	    "ose":[],
+        "snd":[]
     },
 	"popups":{
         "width":300,
         "height":400,
-        "anim":"OGX.Popup.ANIM_FADE",
+        "anim":"fade",
         "overlay":true,
         "listen_overlay":false
     },    
     "windows":{
-        "style":"OGX.Window.HEAD_BACK",
+        "style":back",
         "width":"100%",
         "icons":["img/logo.svg"],
         "fade":false,
@@ -45,7 +34,7 @@
         "show":false
     },
     "overlays":{
-        "anim":"OGX.Overlay.ANIM_FADE"
+        "anim":"fade"
     },
     "scope":["public"]    
 }
