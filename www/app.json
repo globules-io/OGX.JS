@@ -29,5 +29,6 @@
     },
 	"views":{},
     "overlays":{},
+	"rendertime":false,
     "scope":["public"]    
 }
