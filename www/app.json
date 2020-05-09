@@ -9,35 +9,21 @@
     },
     "vapps":{
         
-    },
-    "templates":{
-        "path":"html/templates/",
-        "files":{
-            
-        }
-    },
+    },    
 	"preload":{
-        "images":{
-            "path":"img/",
-            "files":[]
-        },
-        "sounds":{
-            "path":"snd/",
-            "files":[]
-        },
-        "fonts":[],
-        "json":{
-            "path":"json/",
-            "files":[]
-        }
+       "html":[],
+	   "img":[],
+	   "oml":[],
+	   "ose":[],
+	   "snd:[]
     },
 	"popups":{
         "width":300,
         "height":400,
-        "anim":"OGX.Popup.FADE"
+        "anim":"fade"
     },    
     "windows":{
-        "head":"OGX.Window.HEAD_BACK",
+        "head":"back",
         "width":"100%",
         "icons":["img/logo.svg"]       
     },
