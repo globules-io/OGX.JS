@@ -30,5 +30,6 @@
 	"views":{},
     "overlays":{},
 	"rendertime":false,
-    "scope":["public"]    
+    "scope":["public"],
+    "jwt":true   
 }
