@@ -1,6 +1,6 @@
 {
   "name": "@globules-io/ogx.js",
-  "version": "1.4.4",
+  "version": "1.5.0",
   "description": "Javascript framework for webviews",
   "dependencies": {
 	"fs-extra" : "latest",
