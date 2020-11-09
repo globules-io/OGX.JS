@@ -27,6 +27,8 @@ fs.readdir(src_www, (err, files) => {
     files.forEach(file => {
         if(!fs.existsSync(dest_www+'/'+file)){
             fs.copySync(src_www+'/'+file, dest_www+'/'+file);
+        }else{
+            console.log('File '+dest_www+'/'+file+' already exists, skipping');
         }
     });
 })
