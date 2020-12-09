@@ -1,6 +1,6 @@
 # OGX.JS
 
-![alt](https://repository-images.githubusercontent.com/76366703/6b5aa000-113d-11ea-8801-2949c79dabef)
+![alt](https://repository-images.githubusercontent.com/76366703/c8e52600-39fa-11eb-8403-16e6472d7c57)
 
 ### Javascript Framework from [globules.io](http://globules.io)
 
