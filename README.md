@@ -14,13 +14,13 @@
 
 ### Install
 
-  //init npm package
-  npm init 
+    //init npm package
+    npm init 
 
-  //install CLI globally
-  npm -i @globules-io/ogx.cli -g
+    //install CLI globally
+    npm -i @globules-io/ogx.cli -g
 
-  //install OGX.JS for current project/folder
-  ogx update --force
+    //install OGX.JS for current project/folder
+    ogx update --force
 
 ### Read the [News](https://github.com/globules-io/OGX.JS/wiki/News) and the [Changelog](https://github.com/globules-io/OGX.JS/wiki/Changelog)
