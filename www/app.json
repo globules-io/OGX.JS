@@ -11,11 +11,11 @@
         
     },    
 	"preload":{
-       "html":[],
-	   "img":[],
-	   "oml":[],
-	   "ose":[],
-	   "snd":[]
+       "/html":[],
+	   "/img":[],
+	   "/oml":[],
+	   "/ose":[],
+	   "/snd":[]
     },
 	"popups":{
         "width":300,
