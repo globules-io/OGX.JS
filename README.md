@@ -21,6 +21,9 @@
 
     //install CLI globally
     npm -i @globules-io/ogx.cli -g
+    
+    //Or, depending on your NodeJS version
+    npm install @globules-io/ogx.cli -g
 
     //install OGX.JS for current project/folder
     ogx update --force
