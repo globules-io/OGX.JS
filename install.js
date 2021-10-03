@@ -5,8 +5,7 @@ const src_www = path.normalize(__dirname+'/www');
 const src_lib = path.normalize(__dirname+'/www/js/lib/globules/ogx.min.js');
 const dest_www = path.normalize(__dirname+'./../../../www');
 const dest_ogx = path.normalize(__dirname+'./../../../ogx');
-const dest_lib =  path.normalize(__dirname+'./../../js/lib/globules/ogx.min.js');
-
+const dest_lib = path.normalize(__dirname+'./../../../www/js/lib/globules/ogx.min.js');
 //Make ogx folder at root
 try {
     if(!fs.existsSync(dest_ogx)){
