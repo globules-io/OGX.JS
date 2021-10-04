@@ -1,15 +1,15 @@
 {
   "name": "@globules-io/ogx.js",
-  "version": "1.8.5",
+  "version": "1.8.6",
   "description": "Javascript framework for webviews",
   "dependencies": {
-	"fs-extra" : "latest",
-	"path" : "latest"	
+    "path": "latest",
+    "recursive-copy": "^2.0.13"
   },
   "main": "install.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"postinstall": "node install.js"
+    "postinstall": "node install.js"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,10 @@
   },
   "keywords": [
     "javascript",
-	"framework",
+    "framework",
     "webview",
-	"front-end",
-	"mobile",
+    "front-end",
+    "mobile",
     "desktop",
     "web"
   ],
