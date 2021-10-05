@@ -1,35 +1,30 @@
-const fs = require('fs');
 const path = require('path');
+const fs = require('fs-extra');
 const copy = require('recursive-copy');
-const src_www = path.normalize(__dirname+'/www');
-const dest_www = path.normalize(__dirname+'./../../../www');
 const src_ogx = path.normalize(__dirname+'/ogx');
+const src_www = path.normalize(__dirname+'/www');
+const src_lib = path.normalize(__dirname+'/www/js/lib');
+const dest_www = path.normalize(__dirname+'./../../../www');
 const dest_ogx = path.normalize(__dirname+'./../../../ogx');
-const dest_cli = path.normalize(__dirname+'/cli.json');
-const dest_index = path.normalize(__dirname+'./../../../www/index.html');
-const dest_index_bak = path.normalize(__dirname+'./../../../www/index.bak');
-const dest_app = path.normalize(__dirname+'./../../../www/app.json');
-const dest_app_bak =  path.normalize(__dirname+'./../../../www/app.bak');
-let app_exists = fs.existsSync(dest_app);
-let index_exists = fs.existsSync(dest_index);
-let copy_index = !index_exists;
-if(fs.existsSync(dest_cli)){
-    let cli_config = fs.readFileSync(dest_cli, 'utf-8');    
-    if(cli_config.index !== 'index.html'){
-        copy_index = false;
-    }
-}
-if(!copy_index){
-    fs.renameSync(dest_index, dest_index_bak);
-}
-if(app_exists){
-    fs.renameSync(dest_app, dest_app_bak);
-}
-copy(src_www, dest_www, {overwrite:true});
+const dest_lib = path.normalize(__dirname+'./../../js/lib');
+//copy ogx folder
 copy(src_ogx, dest_ogx, {overwrite:true});
-if(!copy_index){
-    fs.renameSync(dest_index_bak, dest_index);
-}
-if(app_exists){
-    fs.renameSync(dest_app_bak, dest_app);
+//if no www, copy the whole folder
+if(!fs.existsSync(dest_www)){
+    copy(src_www, dest_www);
+}else{
+    //if www, check if js and js/lib already there
+    if(!fs.existsSync(dest_lib)){
+        copy(src_lib, dest_lib);
+    }else{        
+        //copy cryto, globules, howler, jquery, moment, mongogx
+        let lib_folders = ['cryto', 'globules', 'howler', 'jquery', 'moment', 'mongogx'];
+        let lib_folders_src;
+        let lib_folders_dest;
+        for(let i = 0; i < lib_folders.length; i++){
+            lib_folders_src =  path.normalize(__dirname+'/www/js/lib/'+lib_folders[i]);
+            lib_folders_dest = path.normalize(__dirname+'./../../js/lib/'+lib_folders[i]);
+            copy(lib_folders_src, lib_folders_dest, {overwrite:true});
+        }
+    }
 }
