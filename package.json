@@ -3,6 +3,7 @@
   "version": "1.8.7",
   "description": "Javascript framework for webviews",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "path": "latest",
     "recursive-copy": "^2.0.13"
   },
