@@ -4,9 +4,11 @@ const copy = require('recursive-copy');
 const src_ogx = path.normalize(__dirname+'/ogx');
 const src_www = path.normalize(__dirname+'/www');
 const src_lib = path.normalize(__dirname+'/www/js/lib');
+const src_main = path.normalize(__dirname+'/www/js/bin/main.js');
 const dest_www = path.normalize(__dirname+'./../../../www');
 const dest_ogx = path.normalize(__dirname+'./../../../ogx');
 const dest_lib = path.normalize(__dirname+'./../../js/lib');
+const dest_main = path.normalize(__dirname+'./../../js/bin/main.js');
 //copy ogx folder
 copy(src_ogx, dest_ogx, {overwrite:true});
 //if no www, copy the whole folder
@@ -26,5 +28,9 @@ if(!fs.existsSync(dest_www)){
             lib_folders_dest = path.normalize(__dirname+'./../../js/lib/'+lib_folders[i]);
             copy(lib_folders_src, lib_folders_dest, {overwrite:true});
         }
+    }
+    //deploy main.js if not already there
+    if(!fs.existsSync(dest_main)){
+        fs.copyFile(src_main, dest_main);
     }
 }
