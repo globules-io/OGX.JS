@@ -2,8 +2,9 @@
     "routing":{
 		"routes":{},
 		"options":{
-			"history":true,
-			"bookmarkable":true            
+			"history": true,
+			"bookmark": true,
+            "jail": false          
         },
 		"errors":{}
     },
@@ -18,18 +19,18 @@
 	   "/snd":[]
     },
 	"popups":{
-        "width":300,
-        "height":400,
-        "anim":"fade"
+        "width": 300,
+        "height": 400,
+        "anim": "fade"
     },    
     "windows":{
-        "head":"back",
-        "width":"100%",
-        "icons":["img/logo.svg"]       
+        "head": "back",
+        "width": "100%",
+        "icons": ["img/logo.svg"]       
     },
-	"views":{},
-    "overlays":{},
-	"rendertime":false,
-    "scope":["public"],
-    "jwt":true   
+	"views": {},
+    "overlays": {},
+	"rendertime": false,
+    "scope": ["public"],
+    "jwt": true   
 }
