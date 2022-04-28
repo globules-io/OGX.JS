@@ -25,12 +25,11 @@
     },    
     "windows":{
         "head": "back",
-        "width": "100%",
-        "icons": ["img/logo.svg"]       
+        "width": "100%"      
     },
 	"views": {},
     "overlays": {},
 	"rendertime": false,
-    "scope": ["public"],
+    "scope": "public",
     "jwt": true   
 }
