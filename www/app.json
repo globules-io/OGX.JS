@@ -4,7 +4,7 @@
 		"options":{
 			"history": true,
 			"bookmark": true,
-            "ibernate": false,
+            "cache": false,
             "jail": false,
             "eval": false          
         },
