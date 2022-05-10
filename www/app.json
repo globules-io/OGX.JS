@@ -8,6 +8,7 @@
             "jail": false,
             "eval": false          
         },
+        "cache":[],
 		"errors":{}
     },
     "vapps":{
