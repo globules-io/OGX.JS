@@ -10,6 +10,8 @@
 
 ### Check out the [wiki](https://github.com/globules-io/OGX.JS/wiki)
 
+### Check out the [extra components wiki](https://github.com/globules-io/OGX.Components)
+
 ### Check out the [CLI](https://github.com/globules-io/OGX.CLI)
 
 ### Read the [News](https://github.com/globules-io/OGX.JS/wiki/News) and the [Changelog](https://github.com/globules-io/OGX.JS/wiki/Changelog)
