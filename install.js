@@ -3,9 +3,11 @@ const fs = require('fs-extra');
 const copy = require('recursive-copy');
 const src_ogx = path.normalize(__dirname+'/ogx');
 const src_www = path.normalize(__dirname+'/www');
+const src_themes = path.normalize(__dirname+'/www/themes');
 const src_bin = path.normalize(__dirname+'/www/js/bin');
 const src_lib = path.normalize(__dirname+'/www/js/lib');
 const dest_www = path.normalize(__dirname+'./../../../www');
+const dest_themes = path.normalize(__dirname+'./../../../themes');
 const dest_ogx = path.normalize(__dirname+'./../../../ogx');
 const dest_lib = path.normalize(__dirname+'./../../js/lib');
 const dest_bin = path.normalize(__dirname+'./../../js/bin');
@@ -29,6 +31,10 @@ if(!fs.existsSync(dest_www)){
             copy(lib_folders_src, lib_folders_dest, {overwrite:true});
         }        
     }   
+    //check if themes are here
+    if(!fs.existsSync(dest_themes)){
+        copy(src_themes, dest_themes, {overwrite:false});
+    }
     //deploy js/bin if not already there
     if(!fs.existsSync(dest_bin)){
         copy(src_bin, dest_bin, {overwrite:false});
