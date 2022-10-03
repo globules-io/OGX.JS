@@ -29,22 +29,21 @@ if(!fs.existsSync(dest_www)){
             lib_folders_src =  path.normalize(__dirname+'/www/js/lib/'+lib_folders[i]);
             lib_folders_dest = path.normalize(__dirname+'./../../js/lib/'+lib_folders[i]);
             //patch --dev
-            try{
+            if(fs.existsSync(lib_folders_src)){
                 copy(lib_folders_src, lib_folders_dest, {overwrite:true});
-            }catch(__err){}
+            }
         }        
     }   
     //check if themes are here
     if(!fs.existsSync(dest_themes)){
         //patch --dev
-        try{
+        if(fs.existsSync(src_themes)){
             copy(src_themes, dest_themes, {overwrite:false});
-        }catch(__err){}
+        }
     }
     //deploy js/bin if not already there
-    if(!fs.existsSync(dest_bin)){
-        try{
-            copy(src_bin, dest_bin, {overwrite:false});
-         }catch(__err){}
+    //patch --dev
+    if(!fs.existsSync(dest_bin) && fs.existsSync(src_bin)){      
+        copy(src_bin, dest_bin, {overwrite:false});        
     } 
 }
