@@ -16,7 +16,9 @@ copy(src_ogx, dest_ogx, {overwrite:true});
 //if no www, copy the whole folder
 if(!fs.existsSync(dest_www)){
     copy(src_www, dest_www);
+    console.log('Info: copying entire www folder');
 }else{
+    console.log('Info: www present, merging files...');
     //if www, check if js and js/lib already there
     if(!fs.existsSync(dest_lib)){
         copy(src_lib, dest_lib);        
@@ -30,16 +32,15 @@ if(!fs.existsSync(dest_www)){
             lib_folders_dest = path.normalize(__dirname+'./../../js/lib/'+lib_folders[i]);
             //patch --dev
             if(fs.existsSync(lib_folders_src)){
+                console.log('Info: merging lib', lib_folders[i]);
                 copy(lib_folders_src, lib_folders_dest, {overwrite:true});
             }
         }        
     }   
     //check if themes are here
-    if(!fs.existsSync(dest_themes)){
-        //patch --dev
-        if(fs.existsSync(src_themes)){
-            copy(src_themes, dest_themes, {overwrite:false});
-        }
+    //patch --dev
+    if(!fs.existsSync(dest_themes) && fs.existsSync(src_themes)){      
+        copy(src_themes, dest_themes, {overwrite:false});        
     }
     //deploy js/bin if not already there
     //patch --dev
@@ -47,3 +48,4 @@ if(!fs.existsSync(dest_www)){
         copy(src_bin, dest_bin, {overwrite:false});        
     } 
 }
+console.log('Info: OGX.JS install done!');
