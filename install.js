@@ -6,13 +6,11 @@ const src_www = path.normalize(__dirname+'/www');
 const src_themes = path.normalize(__dirname+'/www/themes');
 const src_bin = path.normalize(__dirname+'/www/js/bin');
 const src_lib = path.normalize(__dirname+'/www/js/lib');
-const src_fonts = path.normalize(__dirname+'/www/fonts');
 const dest_www = path.normalize(__dirname+'./../../../www');
 const dest_themes = path.normalize(__dirname+'./../../../www/themes');
 const dest_ogx = path.normalize(__dirname+'./../../../ogx');
 const dest_lib = path.normalize(__dirname+'./../../js/lib');
 const dest_bin = path.normalize(__dirname+'./../../js/bin');
-const dest_fonts = path.normalize(__dirname+'./../../fonts');
 //copy ogx folder
 copy(src_ogx, dest_ogx, {overwrite:true});
 //if no www, copy the whole folder
@@ -36,10 +34,6 @@ if(!fs.existsSync(dest_www)){
     //check if themes are here
     if(!fs.existsSync(dest_themes)){
         copy(src_themes, dest_themes, {overwrite:false});
-    }
-    //check if fonts are here
-    if(!fs.existsSync(dest_fonts)){
-        copy(src_fonts, dest_fonts, {overwrite:false});
     }
     //deploy js/bin if not already there
     if(!fs.existsSync(dest_bin)){
