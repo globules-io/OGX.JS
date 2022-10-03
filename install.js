@@ -28,15 +28,23 @@ if(!fs.existsSync(dest_www)){
         for(let i = 0; i < lib_folders.length; i++){
             lib_folders_src =  path.normalize(__dirname+'/www/js/lib/'+lib_folders[i]);
             lib_folders_dest = path.normalize(__dirname+'./../../js/lib/'+lib_folders[i]);
-            copy(lib_folders_src, lib_folders_dest, {overwrite:true});
+            //patch --dev
+            try{
+                copy(lib_folders_src, lib_folders_dest, {overwrite:true});
+            }catch(__err){}
         }        
     }   
     //check if themes are here
     if(!fs.existsSync(dest_themes)){
-        copy(src_themes, dest_themes, {overwrite:false});
+        //patch --dev
+        try{
+            copy(src_themes, dest_themes, {overwrite:false});
+        }catch(__err){}
     }
     //deploy js/bin if not already there
     if(!fs.existsSync(dest_bin)){
-        copy(src_bin, dest_bin, {overwrite:false});
+        try{
+            copy(src_bin, dest_bin, {overwrite:false});
+         }catch(__err){}
     } 
 }
