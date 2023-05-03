@@ -18,8 +18,6 @@
 
 ### Read the [News](https://github.com/globules-io/OGX.JS/wiki/News) and the [Changelog](https://github.com/globules-io/OGX.JS/wiki/Changelog)
 
-### Learn via [video tutorials](https://www.youtube.com/channel/UCs0FYA68fXriJ1vN6-Lz1Rg)
-
 ### Install
 
     //init npm package
