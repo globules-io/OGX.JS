@@ -32,6 +32,13 @@
     },
 	"views": {},
     "overlays": {},
+    "splash": {
+        "enabled": false,
+        "color": null,
+        "image" : null,
+        "auto_hide": false,
+        "hide_timeout": 0
+    },
 	"rendertime": false,
     "scope": "public",
     "jwt": true   
