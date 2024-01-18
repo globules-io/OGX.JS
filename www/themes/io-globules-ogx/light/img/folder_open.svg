@@ -2,9 +2,9 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="48px" height="48px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#000000;}
+	.st0{fill:#FFFFFF;}
 </style>
-<path class="st0" d="M29.2,16L24,21.2L18.8,16L16,18.8l5.2,5.2L16,29.2l2.8,2.8l5.2-5.2l5.2,5.2l2.8-2.8L26.8,24l5.2-5.2L29.2,16z
-	 M24,4C12.9,4,4,12.9,4,24s8.9,20,20,20s20-9,20-20S35,4,24,4z M24,40c-8.8,0-16-7.2-16-16S15.2,8,24,8s16,7.2,16,16S32.8,40,24,40z
-	"/>
+<path class="st0" d="M40,12H24l-4-4H8c-2.2,0-4,1.8-4,4v24c0,2.2,1.8,4,4,4h32c2.2,0,4-1.8,4-4V16C44,13.8,42.2,12,40,12z M40,36H8
+	V16h32V36z"/>
+<rect x="6" y="21" class="st0" width="36" height="4"/>
 </svg>

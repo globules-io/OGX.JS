@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#231F20;}
+</style>
+<path class="st0" d="M20.2,5.2c-8.3,0-14.9,6.7-14.9,14.9h3.3c0-6.5,5.2-11.7,11.7-11.7V5.2z">
+<animateTransform  accumulate="none" additive="replace" attributeName="transform" attributeType="xml" calcMode="linear" dur="0.6s" fill="remove" from="0 25 25" repeatCount="indefinite" restart="always" to="360 25 25" type="rotate">
+		</animateTransform>
+</path>
+</svg>
