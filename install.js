@@ -1,4 +1,3 @@
-const root = require.main.paths[0].split('node_modules')[0].slice(0, -1);
 const path = require('path');
 const fs = require('fs-extra');
 const copy = require('recursive-copy');
@@ -6,6 +5,7 @@ const src_www = path.normalize(__dirname+'/www');
 const src_themes = path.normalize(__dirname+'/www/themes');
 const src_bin = path.normalize(__dirname+'/www/js/bin');
 const src_lib = path.normalize(__dirname+'/www/js/lib');
+const root = require.main.paths[0].split('node_modules')[0].slice(0, -1);
 const dest_www = path.normalize(root+'/www');
 const dest_themes = path.normalize(root+'/www/themes');
 const dest_lib = path.normalize(root+'/www/js/lib');
@@ -27,7 +27,7 @@ if(!fs.existsSync(dest_www)){
         let lib_folders_src;
         let lib_folders_dest;
         for(let i = 0; i < lib_folders.length; i++){
-            lib_folders_src =  path.normalize(__dirname+'/www/js/lib/'+lib_folders[i]);
+            lib_folders_src =  path.normalize(src_lib+'/'+lib_folders[i]);
             lib_folders_dest = path.normalize(dest_www+'/js/lib/'+lib_folders[i]);
             //patch --dev
             if(fs.existsSync(lib_folders_src)){
