@@ -1,6 +1,7 @@
 {
     "routing":{
 		"routes":{},
+          "index": "",
 		"options":{
 			"history": true,
 			"bookmark": true,
