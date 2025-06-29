@@ -29,4 +29,7 @@
     //install OGX.JS for current project/folder
     ogx update --force
 
+    //init OGX 
+    ogx init
+
 
