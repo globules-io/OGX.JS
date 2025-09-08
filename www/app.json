@@ -17,13 +17,7 @@
                "404": null
           }
      },
-     "preload": {
-          "/html": [],
-          "/img": [],
-          "/oml": [],
-          "/ose": [],
-          "/snd": []
-     },
+     "preload": {},
      "splash": {
           "enabled": false,
           "color": null,
