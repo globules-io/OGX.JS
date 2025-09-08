@@ -1,46 +1,58 @@
 {
-    "routing":{
-		"routes":{},
+     "routing": {
+          "routes": {},
           "index": "",
-		"options":{
-			"history": true,
-			"bookmark": true,
-            "cache": false,
-            "jail": false,
-            "eval": false          
-        },
-        "cache":[],
-		"errors":{}
-    },
-    "vapps":{
-        
-    },    
-	"preload":{
-       "/html":[],
-	   "/img":[],
-	   "/oml":[],
-	   "/ose":[],
-	   "/snd":[]
-    },
-	"popups":{
-        "width": 300,
-        "height": 400,
-        "anim": "fade"
-    },    
-    "windows":{
-        "head": "back",
-        "width": "100%"      
-    },
-	"views": {},
-    "overlays": {},
-    "splash": {
-        "enabled": false,
-        "color": null,
-        "image" : null,
-        "auto_hide": false,
-        "hide_timeout": 0
-    },
-	"rendertime": false,
-    "scope": "public",
-    "jwt": true   
+          "options": {
+               "history": true,
+               "bookmark": true,
+               "cache": false,
+               "jail": false,
+               "eval": false,  
+               "idle": false,
+               "hide_window": false,
+               "hide_popup": false
+          },
+          "errors": {
+               "403": null,
+               "404": null
+          }
+     },
+     "preload": {
+          "/html": [],
+          "/img": [],
+          "/oml": [],
+          "/ose": [],
+          "/snd": []
+     },
+     "splash": {
+          "enabled": false,
+          "color": null,
+          "image": null,
+          "auto_hide": false,
+          "hide_timeout": 0
+     },
+     "theater": {
+          "enabled": false
+     },
+     "defaults": {
+          "stage": {
+               "anim": null
+          },
+          "overlay": {
+               "anim": "fade"
+          },
+          "popup": {
+               "width": 300,
+               "height": 400,
+               "anim": "fade"
+          },
+          "window": {
+               "head": "back",
+               "width": "100%"
+          }
+     },
+     "vapps": {},
+     "rendertime": false,
+     "scope": "public",
+     "jwt": false
 }
